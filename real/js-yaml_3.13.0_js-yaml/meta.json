@@ -1,0 +1,14 @@
+{
+  "id": "js-yaml_3.13.0",
+  "cwe": "CWE-094",
+  "class": "Wstrzykniecie kodu",
+  "package": "js-yaml",
+  "vulnerable_version": "3.13.0",
+  "fixed_version": "3.13.1",
+  "version_gap": "patch",
+  "fix_commit": "https://github.com/nodeca/js-yaml/pull/480/commits/e18afbf1edcafb7add2c4c7b22abc8d6ebc2fa61",
+  "sink_file": "lib/js-yaml/type/js/function.js",
+  "sink_line": "70",
+  "entry_dir": "code-injection\\js-yaml_3.13.0",
+  "rank": "5"
+}

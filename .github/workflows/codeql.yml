@@ -42,8 +42,13 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         build-mode: ${{ matrix.build-mode }}
-        # Aktywacja pełnego arsenału reguł CodeQL do celów badawczych!
         queries: security-extended,security-and-quality
+        config: |
+          paths-ignore:
+            - 'real/**/test/**'
+            - 'real/**/tests/**'
+            - 'real/**/spec/**'
+            - 'real/**/__tests__/**'
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v4

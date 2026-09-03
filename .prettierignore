@@ -1,0 +1,9 @@
+# Korpus badawczy: numery linii w synthetic/ground_truth.csv odwołują się do konkretnych
+# linii plików, więc jakiekolwiek automatyczne formatowanie unieważniłoby ground truth.
+synthetic/
+
+# Artefakty skanowania i zależności
+secbench/
+node_modules/
+*.sarif
+*.json.log

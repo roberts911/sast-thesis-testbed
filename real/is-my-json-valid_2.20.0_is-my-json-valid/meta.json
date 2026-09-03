@@ -1,0 +1,14 @@
+{
+  "id": "is-my-json-valid_2.20.0",
+  "cwe": "CWE-094",
+  "class": "Wstrzykniecie kodu",
+  "package": "is-my-json-valid",
+  "vulnerable_version": "2.20.0",
+  "fixed_version": "2.20.3",
+  "version_gap": "patch",
+  "fix_commit": "https://github.com/mafintosh/is-my-json-valid/commit/3419563687df463b4ca709a2b46be8e15d6a2b3d",
+  "sink_file": "index.js",
+  "sink_line": "172",
+  "entry_dir": "code-injection\\is-my-json-valid_2.20.0",
+  "rank": "4"
+}

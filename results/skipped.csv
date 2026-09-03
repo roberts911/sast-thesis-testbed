@@ -1,0 +1,2 @@
+id,cwe,package,reason
+CVE-2020-26256,CWE-1333,fast-csv,brak pliku ujscia Parser.js w wersji vulnerable

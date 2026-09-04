@@ -20,7 +20,7 @@ import time
 SOURCE_DIR = 'synthetic/CWE-089'   # katalog, z ktorego pobierane sa pliki
 TARGET_DIR = 'measure'             # katalog docelowy w galezi pomiarowej
 CASES = 5                          # liczba zadan scalenia
-PAUSE_SECONDS = 360                # przerwa miedzy zadaniami
+PAUSE_SECONDS = 900               # przerwa miedzy zadaniami
 
 
 def run(command, check=True, capture=False):

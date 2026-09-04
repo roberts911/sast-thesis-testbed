@@ -7,3 +7,4 @@ tmp_pack/
 secbench/
 node_modules/
 measure/
+scripts/__pycache__/

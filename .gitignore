@@ -1,4 +1,9 @@
 __pycache__/
 tmp_pack/
 secbench/
+node_modules/results/
+__pycache__/
+tmp_pack/
+secbench/
 node_modules/
+measure/

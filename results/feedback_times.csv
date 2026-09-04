@@ -1,0 +1,21 @@
+zadanie,kontrola,utworzenie,zakonczenie,sekundy,wynik
+8,CodeQL,2026-09-04T11:38:39Z,2026-09-04T11:47:38Z,539,failure
+8,SonarCloud Code Analysis,2026-09-04T11:38:39Z,2026-09-04T11:39:52Z,73,success
+8,SonarCloud Scan,2026-09-04T11:38:39Z,2026-09-04T11:39:56Z,77,success
+8,Analyze (javascript-typescript),2026-09-04T11:38:39Z,2026-09-04T11:47:44Z,545,success
+7,CodeQL,2026-09-04T11:32:32Z,2026-09-04T11:39:33Z,421,failure
+7,SonarCloud Code Analysis,2026-09-04T11:32:32Z,2026-09-04T11:37:10Z,278,success
+7,SonarCloud Scan,2026-09-04T11:32:32Z,2026-09-04T11:37:13Z,281,success
+7,Analyze (javascript-typescript),2026-09-04T11:32:32Z,2026-09-04T11:39:40Z,428,success
+6,CodeQL,2026-09-04T11:26:26Z,2026-09-04T11:35:11Z,525,failure
+6,SonarCloud Code Analysis,2026-09-04T11:26:26Z,2026-09-04T11:28:59Z,153,success
+6,Analyze (javascript-typescript),2026-09-04T11:26:26Z,2026-09-04T11:35:19Z,533,success
+6,SonarCloud Scan,2026-09-04T11:26:26Z,2026-09-04T11:29:03Z,157,success
+5,CodeQL,2026-09-04T11:20:19Z,2026-09-04T11:22:42Z,143,failure
+5,SonarCloud Code Analysis,2026-09-04T11:20:19Z,2026-09-04T11:22:04Z,105,success
+5,SonarCloud Scan,2026-09-04T11:20:19Z,2026-09-04T11:22:08Z,109,success
+5,Analyze (javascript-typescript),2026-09-04T11:20:19Z,2026-09-04T11:22:46Z,147,success
+4,SonarCloud Code Analysis,2026-09-04T11:14:13Z,2026-09-04T11:22:17Z,484,success
+4,CodeQL,2026-09-04T11:14:13Z,2026-09-04T11:19:20Z,307,failure
+4,Analyze (javascript-typescript),2026-09-04T11:14:13Z,2026-09-04T11:19:25Z,312,success
+4,SonarCloud Scan,2026-09-04T11:14:13Z,2026-09-04T11:22:20Z,487,success

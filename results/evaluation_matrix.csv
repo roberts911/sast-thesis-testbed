@@ -1,0 +1,301 @@
+key,layer,cwe,label,flow_level,outcome,tool
+synthetic/CWE-094/cwe_94_eval_express.js,syntetyczna,CWE-094,CWE-094/cwe_94_eval_express.js,1,TP,CodeQL
+synthetic/CWE-094/cwe_94_settimeout_string_scheduler.js,syntetyczna,CWE-094,CWE-094/cwe_94_settimeout_string_scheduler.js,2,TP,CodeQL
+synthetic/CWE-094/cwe_94_vm_run_in_new_context.ts,syntetyczna,CWE-094,CWE-094/cwe_94_vm_run_in_new_context.ts,3,TP,CodeQL
+synthetic/CWE-094/cwe_94_lodash_template_upload.js,syntetyczna,CWE-094,CWE-094/cwe_94_lodash_template_upload.js,4,FN,CodeQL
+synthetic/CWE-094/cwe_94_new_function_rules_engine.js,syntetyczna,CWE-094,CWE-094/cwe_94_new_function_rules_engine.js,5,FN,CodeQL
+synthetic/CWE-078/cwe_78_exec_ping_diagnostics.js,syntetyczna,CWE-078,CWE-078/cwe_78_exec_ping_diagnostics.js,1,TP,CodeQL
+synthetic/CWE-078/cwe_78_execsync_repo_clone.js,syntetyczna,CWE-078,CWE-078/cwe_78_execsync_repo_clone.js,2,TP,CodeQL
+synthetic/CWE-078/cwe_78_spawn_shell_true_converter.ts,syntetyczna,CWE-078,CWE-078/cwe_78_spawn_shell_true_converter.ts,3,FN,CodeQL
+synthetic/CWE-078/cwe_78_second_order_backup_worker.js,syntetyczna,CWE-078,CWE-078/cwe_78_second_order_backup_worker.js,4,FN,CodeQL
+synthetic/CWE-078/cwe_78_broken_sanitizer_media_queue.js,syntetyczna,CWE-078,CWE-078/cwe_78_broken_sanitizer_media_queue.js,5,FN,CodeQL
+synthetic/CWE-089/cwe_89_string_concat_login.js,syntetyczna,CWE-089,CWE-089/cwe_89_string_concat_login.js,1,TP,CodeQL
+synthetic/CWE-089/cwe_89_partial_parameterization_search.js,syntetyczna,CWE-089,CWE-089/cwe_89_partial_parameterization_search.js,2,TP,CodeQL
+synthetic/CWE-089/cwe_89_knex_whereraw_analytics.ts,syntetyczna,CWE-089,CWE-089/cwe_89_knex_whereraw_analytics.ts,3,TP,CodeQL
+synthetic/CWE-089/cwe_89_second_order_saved_filters.js,syntetyczna,CWE-089,CWE-089/cwe_89_second_order_saved_filters.js,4,FN,CodeQL
+synthetic/CWE-089/cwe_89_sequelize_literal_broken_escape.js,syntetyczna,CWE-089,CWE-089/cwe_89_sequelize_literal_broken_escape.js,5,TP,CodeQL
+synthetic/CWE-079/cwe_79_reflected_search_express.js,syntetyczna,CWE-079,CWE-079/cwe_79_reflected_search_express.js,1,TP,CodeQL
+synthetic/CWE-079/cwe_79_ejs_unescaped_profile.js,syntetyczna,CWE-079,CWE-079/cwe_79_ejs_unescaped_profile.js,2,FN,CodeQL
+synthetic/CWE-079/cwe_79_stored_comments_react_ssr.tsx,syntetyczna,CWE-079,CWE-079/cwe_79_stored_comments_react_ssr.tsx,3,FN,CodeQL
+synthetic/CWE-079/cwe_79_broken_sanitizer_markdown.js,syntetyczna,CWE-079,CWE-079/cwe_79_broken_sanitizer_markdown.js,4,TP,CodeQL
+synthetic/CWE-079/cwe_79_state_hydration_script_context.js,syntetyczna,CWE-079,CWE-079/cwe_79_state_hydration_script_context.js,5,FN,CodeQL
+synthetic/CWE-022/cwe_22_readfile_concat_docs.js,syntetyczna,CWE-022,CWE-022/cwe_22_readfile_concat_docs.js,1,TP,CodeQL
+synthetic/CWE-022/cwe_22_naive_replace_avatar.js,syntetyczna,CWE-022,CWE-022/cwe_22_naive_replace_avatar.js,2,TP,CodeQL
+synthetic/CWE-022/cwe_22_zip_slip_theme_import.js,syntetyczna,CWE-022,CWE-022/cwe_22_zip_slip_theme_import.js,3,TP,CodeQL
+synthetic/CWE-022/cwe_22_path_resolve_absolute_templates.ts,syntetyczna,CWE-022,CWE-022/cwe_22_path_resolve_absolute_templates.ts,4,FN,CodeQL
+synthetic/CWE-022/cwe_22_second_order_manifest_export.js,syntetyczna,CWE-022,CWE-022/cwe_22_second_order_manifest_export.js,5,FN,CodeQL
+synthetic/CWE-1321/cwe_1321_recursive_merge_settings.js,syntetyczna,CWE-1321,CWE-1321/cwe_1321_recursive_merge_settings.js,1,TP,CodeQL
+synthetic/CWE-1321/cwe_1321_query_parser_filters.js,syntetyczna,CWE-1321,CWE-1321/cwe_1321_query_parser_filters.js,2,TP,CodeQL
+synthetic/CWE-1321/cwe_1321_gadget_chain_ejs_render.js,syntetyczna,CWE-1321,CWE-1321/cwe_1321_gadget_chain_ejs_render.js,3,TP,CodeQL
+synthetic/CWE-1321/cwe_1321_auth_flag_override.ts,syntetyczna,CWE-1321,CWE-1321/cwe_1321_auth_flag_override.ts,4,TP,CodeQL
+synthetic/CWE-1321/cwe_1321_websocket_path_assignment.js,syntetyczna,CWE-1321,CWE-1321/cwe_1321_websocket_path_assignment.js,5,FN,CodeQL
+synthetic/CWE-1333/cwe_1333_nested_quantifier_validation.js,syntetyczna,CWE-1333,CWE-1333/cwe_1333_nested_quantifier_validation.js,1,TP,CodeQL
+synthetic/CWE-1333/cwe_1333_hidden_match_forwarded_host.js,syntetyczna,CWE-1333,CWE-1333/cwe_1333_hidden_match_forwarded_host.js,2,TP,CodeQL
+synthetic/CWE-1333/cwe_1333_zod_schema_pattern.ts,syntetyczna,CWE-1333,CWE-1333/cwe_1333_zod_schema_pattern.ts,3,TP,CodeQL
+synthetic/CWE-1333/cwe_1333_dynamic_regexp_catalog_search.js,syntetyczna,CWE-1333,CWE-1333/cwe_1333_dynamic_regexp_catalog_search.js,4,TP,CodeQL
+synthetic/CWE-1333/cwe_1333_async_log_pipeline.js,syntetyczna,CWE-1333,CWE-1333/cwe_1333_async_log_pipeline.js,5,TP,CodeQL
+synthetic/CWE-327/cwe_327_md5_literal_password.js,syntetyczna,CWE-327,CWE-327/cwe_327_md5_literal_password.js,1,TP,CodeQL
+synthetic/CWE-327/cwe_327_sha1_module_constant.js,syntetyczna,CWE-327,CWE-327/cwe_327_sha1_module_constant.js,2,FN,CodeQL
+synthetic/CWE-327/cwe_327_config_object_cipher.js,syntetyczna,CWE-327,CWE-327/cwe_327_config_object_cipher.js,3,FN,CodeQL
+synthetic/CWE-327/cwe_327_legacy_flag_fallback.ts,syntetyczna,CWE-327,CWE-327/cwe_327_legacy_flag_fallback.ts,4,FN,CodeQL
+synthetic/CWE-327/cwe_327_crypto_helper_factory.js,syntetyczna,CWE-327,CWE-327/cwe_327_crypto_helper_factory.js,5,FN,CodeQL
+synthetic/CWE-798/cwe_798_inline_stripe_api_key.js,syntetyczna,CWE-798,CWE-798/cwe_798_inline_stripe_api_key.js,1,FN,CodeQL
+synthetic/CWE-798/cwe_798_module_constant_github_token.js,syntetyczna,CWE-798,CWE-798/cwe_798_module_constant_github_token.js,2,FN,CodeQL
+synthetic/CWE-798/cwe_798_nested_config_object.js,syntetyczna,CWE-798,CWE-798/cwe_798_nested_config_object.js,3,FN,CodeQL
+synthetic/CWE-798/cwe_798_env_conditional_sandbox_key.ts,syntetyczna,CWE-798,CWE-798/cwe_798_env_conditional_sandbox_key.ts,4,FN,CodeQL
+synthetic/CWE-798/cwe_798_credential_provider_fallback.js,syntetyczna,CWE-798,CWE-798/cwe_798_credential_provider_fallback.js,5,FN,CodeQL
+synthetic/CWE-020/cwe_20_nan_pagination_ledger.js,syntetyczna,CWE-020,CWE-020/cwe_20_nan_pagination_ledger.js,1,FN,CodeQL
+synthetic/CWE-020/cwe_20_mass_assignment_profile.js,syntetyczna,CWE-020,CWE-020/cwe_20_mass_assignment_profile.js,2,FN,CodeQL
+synthetic/CWE-020/cwe_20_negative_quantity_checkout.js,syntetyczna,CWE-020,CWE-020/cwe_20_negative_quantity_checkout.js,3,FN,CodeQL
+synthetic/CWE-020/cwe_20_ssrf_webhook_callback.ts,syntetyczna,CWE-020,CWE-020/cwe_20_ssrf_webhook_callback.ts,4,TP,CodeQL
+synthetic/CWE-020/cwe_20_nosql_type_confusion_login.js,syntetyczna,CWE-020,CWE-020/cwe_20_nosql_type_confusion_login.js,5,FN,CodeQL
+synthetic/control_pool/cwe_94_safe_eval_express.js,syntetyczna,CWE-094,control_pool/cwe_94_safe_eval_express.js,1,TN,CodeQL
+synthetic/control_pool/cwe_94_safe_settimeout_string_scheduler.js,syntetyczna,CWE-094,control_pool/cwe_94_safe_settimeout_string_scheduler.js,2,TN,CodeQL
+synthetic/control_pool/cwe_94_safe_vm_run_in_new_context.ts,syntetyczna,CWE-094,control_pool/cwe_94_safe_vm_run_in_new_context.ts,3,TN,CodeQL
+synthetic/control_pool/cwe_94_safe_lodash_template_upload.js,syntetyczna,CWE-094,control_pool/cwe_94_safe_lodash_template_upload.js,4,TN,CodeQL
+synthetic/control_pool/cwe_94_safe_new_function_rules_engine.js,syntetyczna,CWE-094,control_pool/cwe_94_safe_new_function_rules_engine.js,5,TN,CodeQL
+synthetic/control_pool/cwe_78_safe_exec_ping_diagnostics.js,syntetyczna,CWE-078,control_pool/cwe_78_safe_exec_ping_diagnostics.js,1,TN,CodeQL
+synthetic/control_pool/cwe_78_safe_execsync_repo_clone.js,syntetyczna,CWE-078,control_pool/cwe_78_safe_execsync_repo_clone.js,2,TN,CodeQL
+synthetic/control_pool/cwe_78_safe_spawn_shell_true_converter.ts,syntetyczna,CWE-078,control_pool/cwe_78_safe_spawn_shell_true_converter.ts,3,TN,CodeQL
+synthetic/control_pool/cwe_78_safe_second_order_backup_worker.js,syntetyczna,CWE-078,control_pool/cwe_78_safe_second_order_backup_worker.js,4,TN,CodeQL
+synthetic/control_pool/cwe_78_safe_broken_sanitizer_media_queue.js,syntetyczna,CWE-078,control_pool/cwe_78_safe_broken_sanitizer_media_queue.js,5,TN,CodeQL
+synthetic/control_pool/cwe_89_safe_string_concat_login.js,syntetyczna,CWE-089,control_pool/cwe_89_safe_string_concat_login.js,1,TN,CodeQL
+synthetic/control_pool/cwe_89_safe_partial_parameterization_search.js,syntetyczna,CWE-089,control_pool/cwe_89_safe_partial_parameterization_search.js,2,TN,CodeQL
+synthetic/control_pool/cwe_89_safe_knex_whereraw_analytics.ts,syntetyczna,CWE-089,control_pool/cwe_89_safe_knex_whereraw_analytics.ts,3,TN,CodeQL
+synthetic/control_pool/cwe_89_safe_second_order_saved_filters.js,syntetyczna,CWE-089,control_pool/cwe_89_safe_second_order_saved_filters.js,4,TN,CodeQL
+synthetic/control_pool/cwe_89_safe_sequelize_literal_broken_escape.js,syntetyczna,CWE-089,control_pool/cwe_89_safe_sequelize_literal_broken_escape.js,5,TN,CodeQL
+synthetic/control_pool/cwe_79_safe_reflected_search_express.js,syntetyczna,CWE-079,control_pool/cwe_79_safe_reflected_search_express.js,1,TN,CodeQL
+synthetic/control_pool/cwe_79_safe_ejs_unescaped_profile.js,syntetyczna,CWE-079,control_pool/cwe_79_safe_ejs_unescaped_profile.js,2,TN,CodeQL
+synthetic/control_pool/cwe_79_safe_stored_comments_react_ssr.tsx,syntetyczna,CWE-079,control_pool/cwe_79_safe_stored_comments_react_ssr.tsx,3,TN,CodeQL
+synthetic/control_pool/cwe_79_safe_broken_sanitizer_markdown.js,syntetyczna,CWE-079,control_pool/cwe_79_safe_broken_sanitizer_markdown.js,4,TN,CodeQL
+synthetic/control_pool/cwe_79_safe_state_hydration_script_context.js,syntetyczna,CWE-079,control_pool/cwe_79_safe_state_hydration_script_context.js,5,TN,CodeQL
+synthetic/control_pool/cwe_22_safe_readfile_concat_docs.js,syntetyczna,CWE-022,control_pool/cwe_22_safe_readfile_concat_docs.js,1,TN,CodeQL
+synthetic/control_pool/cwe_22_safe_naive_replace_avatar.js,syntetyczna,CWE-022,control_pool/cwe_22_safe_naive_replace_avatar.js,2,TN,CodeQL
+synthetic/control_pool/cwe_22_safe_zip_slip_theme_import.js,syntetyczna,CWE-022,control_pool/cwe_22_safe_zip_slip_theme_import.js,3,TN,CodeQL
+synthetic/control_pool/cwe_22_safe_path_resolve_absolute_templates.ts,syntetyczna,CWE-022,control_pool/cwe_22_safe_path_resolve_absolute_templates.ts,4,TN,CodeQL
+synthetic/control_pool/cwe_22_safe_second_order_manifest_export.js,syntetyczna,CWE-022,control_pool/cwe_22_safe_second_order_manifest_export.js,5,TN,CodeQL
+synthetic/control_pool/cwe_1321_safe_recursive_merge_settings.js,syntetyczna,CWE-1321,control_pool/cwe_1321_safe_recursive_merge_settings.js,1,FP,CodeQL
+synthetic/control_pool/cwe_1321_safe_query_parser_filters.js,syntetyczna,CWE-1321,control_pool/cwe_1321_safe_query_parser_filters.js,2,TN,CodeQL
+synthetic/control_pool/cwe_1321_safe_gadget_chain_ejs_render.js,syntetyczna,CWE-1321,control_pool/cwe_1321_safe_gadget_chain_ejs_render.js,3,TN,CodeQL
+synthetic/control_pool/cwe_1321_safe_auth_flag_override.ts,syntetyczna,CWE-1321,control_pool/cwe_1321_safe_auth_flag_override.ts,4,FP,CodeQL
+synthetic/control_pool/cwe_1321_safe_websocket_path_assignment.js,syntetyczna,CWE-1321,control_pool/cwe_1321_safe_websocket_path_assignment.js,5,TN,CodeQL
+synthetic/control_pool/cwe_1333_safe_nested_quantifier_validation.js,syntetyczna,CWE-1333,control_pool/cwe_1333_safe_nested_quantifier_validation.js,1,TN,CodeQL
+synthetic/control_pool/cwe_1333_safe_hidden_match_forwarded_host.js,syntetyczna,CWE-1333,control_pool/cwe_1333_safe_hidden_match_forwarded_host.js,2,TN,CodeQL
+synthetic/control_pool/cwe_1333_safe_zod_schema_pattern.ts,syntetyczna,CWE-1333,control_pool/cwe_1333_safe_zod_schema_pattern.ts,3,TN,CodeQL
+synthetic/control_pool/cwe_1333_safe_dynamic_regexp_catalog_search.js,syntetyczna,CWE-1333,control_pool/cwe_1333_safe_dynamic_regexp_catalog_search.js,4,TN,CodeQL
+synthetic/control_pool/cwe_1333_safe_async_log_pipeline.js,syntetyczna,CWE-1333,control_pool/cwe_1333_safe_async_log_pipeline.js,5,TN,CodeQL
+synthetic/control_pool/cwe_327_safe_md5_literal_password.js,syntetyczna,CWE-327,control_pool/cwe_327_safe_md5_literal_password.js,1,TN,CodeQL
+synthetic/control_pool/cwe_327_safe_sha1_module_constant.js,syntetyczna,CWE-327,control_pool/cwe_327_safe_sha1_module_constant.js,2,TN,CodeQL
+synthetic/control_pool/cwe_327_safe_config_object_cipher.js,syntetyczna,CWE-327,control_pool/cwe_327_safe_config_object_cipher.js,3,TN,CodeQL
+synthetic/control_pool/cwe_327_safe_legacy_flag_fallback.ts,syntetyczna,CWE-327,control_pool/cwe_327_safe_legacy_flag_fallback.ts,4,TN,CodeQL
+synthetic/control_pool/cwe_327_safe_crypto_helper_factory.js,syntetyczna,CWE-327,control_pool/cwe_327_safe_crypto_helper_factory.js,5,TN,CodeQL
+synthetic/control_pool/cwe_798_safe_inline_stripe_api_key.js,syntetyczna,CWE-798,control_pool/cwe_798_safe_inline_stripe_api_key.js,1,TN,CodeQL
+synthetic/control_pool/cwe_798_safe_module_constant_github_token.js,syntetyczna,CWE-798,control_pool/cwe_798_safe_module_constant_github_token.js,2,TN,CodeQL
+synthetic/control_pool/cwe_798_safe_nested_config_object.js,syntetyczna,CWE-798,control_pool/cwe_798_safe_nested_config_object.js,3,TN,CodeQL
+synthetic/control_pool/cwe_798_safe_env_conditional_sandbox_key.ts,syntetyczna,CWE-798,control_pool/cwe_798_safe_env_conditional_sandbox_key.ts,4,TN,CodeQL
+synthetic/control_pool/cwe_798_safe_credential_provider_fallback.js,syntetyczna,CWE-798,control_pool/cwe_798_safe_credential_provider_fallback.js,5,TN,CodeQL
+synthetic/control_pool/cwe_20_safe_nan_pagination_ledger.js,syntetyczna,CWE-020,control_pool/cwe_20_safe_nan_pagination_ledger.js,1,TN,CodeQL
+synthetic/control_pool/cwe_20_safe_mass_assignment_profile.js,syntetyczna,CWE-020,control_pool/cwe_20_safe_mass_assignment_profile.js,2,TN,CodeQL
+synthetic/control_pool/cwe_20_safe_negative_quantity_checkout.js,syntetyczna,CWE-020,control_pool/cwe_20_safe_negative_quantity_checkout.js,3,TN,CodeQL
+synthetic/control_pool/cwe_20_safe_ssrf_webhook_callback.ts,syntetyczna,CWE-020,control_pool/cwe_20_safe_ssrf_webhook_callback.ts,4,FP,CodeQL
+synthetic/control_pool/cwe_20_safe_nosql_type_confusion_login.js,syntetyczna,CWE-020,control_pool/cwe_20_safe_nosql_type_confusion_login.js,5,TN,CodeQL
+synthetic/CWE-094/cwe_94_eval_express.js,syntetyczna,CWE-094,CWE-094/cwe_94_eval_express.js,1,TP,SonarQube Cloud
+synthetic/CWE-094/cwe_94_settimeout_string_scheduler.js,syntetyczna,CWE-094,CWE-094/cwe_94_settimeout_string_scheduler.js,2,TP,SonarQube Cloud
+synthetic/CWE-094/cwe_94_vm_run_in_new_context.ts,syntetyczna,CWE-094,CWE-094/cwe_94_vm_run_in_new_context.ts,3,TP,SonarQube Cloud
+synthetic/CWE-094/cwe_94_lodash_template_upload.js,syntetyczna,CWE-094,CWE-094/cwe_94_lodash_template_upload.js,4,FN,SonarQube Cloud
+synthetic/CWE-094/cwe_94_new_function_rules_engine.js,syntetyczna,CWE-094,CWE-094/cwe_94_new_function_rules_engine.js,5,TP,SonarQube Cloud
+synthetic/CWE-078/cwe_78_exec_ping_diagnostics.js,syntetyczna,CWE-078,CWE-078/cwe_78_exec_ping_diagnostics.js,1,TP,SonarQube Cloud
+synthetic/CWE-078/cwe_78_execsync_repo_clone.js,syntetyczna,CWE-078,CWE-078/cwe_78_execsync_repo_clone.js,2,TP,SonarQube Cloud
+synthetic/CWE-078/cwe_78_spawn_shell_true_converter.ts,syntetyczna,CWE-078,CWE-078/cwe_78_spawn_shell_true_converter.ts,3,TP,SonarQube Cloud
+synthetic/CWE-078/cwe_78_second_order_backup_worker.js,syntetyczna,CWE-078,CWE-078/cwe_78_second_order_backup_worker.js,4,FN,SonarQube Cloud
+synthetic/CWE-078/cwe_78_broken_sanitizer_media_queue.js,syntetyczna,CWE-078,CWE-078/cwe_78_broken_sanitizer_media_queue.js,5,FN,SonarQube Cloud
+synthetic/CWE-089/cwe_89_string_concat_login.js,syntetyczna,CWE-089,CWE-089/cwe_89_string_concat_login.js,1,TP,SonarQube Cloud
+synthetic/CWE-089/cwe_89_partial_parameterization_search.js,syntetyczna,CWE-089,CWE-089/cwe_89_partial_parameterization_search.js,2,TP,SonarQube Cloud
+synthetic/CWE-089/cwe_89_knex_whereraw_analytics.ts,syntetyczna,CWE-089,CWE-089/cwe_89_knex_whereraw_analytics.ts,3,TP,SonarQube Cloud
+synthetic/CWE-089/cwe_89_second_order_saved_filters.js,syntetyczna,CWE-089,CWE-089/cwe_89_second_order_saved_filters.js,4,FN,SonarQube Cloud
+synthetic/CWE-089/cwe_89_sequelize_literal_broken_escape.js,syntetyczna,CWE-089,CWE-089/cwe_89_sequelize_literal_broken_escape.js,5,TP,SonarQube Cloud
+synthetic/CWE-079/cwe_79_reflected_search_express.js,syntetyczna,CWE-079,CWE-079/cwe_79_reflected_search_express.js,1,TP,SonarQube Cloud
+synthetic/CWE-079/cwe_79_ejs_unescaped_profile.js,syntetyczna,CWE-079,CWE-079/cwe_79_ejs_unescaped_profile.js,2,TP,SonarQube Cloud
+synthetic/CWE-079/cwe_79_stored_comments_react_ssr.tsx,syntetyczna,CWE-079,CWE-079/cwe_79_stored_comments_react_ssr.tsx,3,FN,SonarQube Cloud
+synthetic/CWE-079/cwe_79_broken_sanitizer_markdown.js,syntetyczna,CWE-079,CWE-079/cwe_79_broken_sanitizer_markdown.js,4,FN,SonarQube Cloud
+synthetic/CWE-079/cwe_79_state_hydration_script_context.js,syntetyczna,CWE-079,CWE-079/cwe_79_state_hydration_script_context.js,5,FN,SonarQube Cloud
+synthetic/CWE-022/cwe_22_readfile_concat_docs.js,syntetyczna,CWE-022,CWE-022/cwe_22_readfile_concat_docs.js,1,TP,SonarQube Cloud
+synthetic/CWE-022/cwe_22_naive_replace_avatar.js,syntetyczna,CWE-022,CWE-022/cwe_22_naive_replace_avatar.js,2,FN,SonarQube Cloud
+synthetic/CWE-022/cwe_22_zip_slip_theme_import.js,syntetyczna,CWE-022,CWE-022/cwe_22_zip_slip_theme_import.js,3,FN,SonarQube Cloud
+synthetic/CWE-022/cwe_22_path_resolve_absolute_templates.ts,syntetyczna,CWE-022,CWE-022/cwe_22_path_resolve_absolute_templates.ts,4,TP,SonarQube Cloud
+synthetic/CWE-022/cwe_22_second_order_manifest_export.js,syntetyczna,CWE-022,CWE-022/cwe_22_second_order_manifest_export.js,5,FN,SonarQube Cloud
+synthetic/CWE-1321/cwe_1321_recursive_merge_settings.js,syntetyczna,CWE-1321,CWE-1321/cwe_1321_recursive_merge_settings.js,1,TP,SonarQube Cloud
+synthetic/CWE-1321/cwe_1321_query_parser_filters.js,syntetyczna,CWE-1321,CWE-1321/cwe_1321_query_parser_filters.js,2,FN,SonarQube Cloud
+synthetic/CWE-1321/cwe_1321_gadget_chain_ejs_render.js,syntetyczna,CWE-1321,CWE-1321/cwe_1321_gadget_chain_ejs_render.js,3,FN,SonarQube Cloud
+synthetic/CWE-1321/cwe_1321_auth_flag_override.ts,syntetyczna,CWE-1321,CWE-1321/cwe_1321_auth_flag_override.ts,4,FN,SonarQube Cloud
+synthetic/CWE-1321/cwe_1321_websocket_path_assignment.js,syntetyczna,CWE-1321,CWE-1321/cwe_1321_websocket_path_assignment.js,5,FN,SonarQube Cloud
+synthetic/CWE-1333/cwe_1333_nested_quantifier_validation.js,syntetyczna,CWE-1333,CWE-1333/cwe_1333_nested_quantifier_validation.js,1,TP,SonarQube Cloud
+synthetic/CWE-1333/cwe_1333_hidden_match_forwarded_host.js,syntetyczna,CWE-1333,CWE-1333/cwe_1333_hidden_match_forwarded_host.js,2,FN,SonarQube Cloud
+synthetic/CWE-1333/cwe_1333_zod_schema_pattern.ts,syntetyczna,CWE-1333,CWE-1333/cwe_1333_zod_schema_pattern.ts,3,TP,SonarQube Cloud
+synthetic/CWE-1333/cwe_1333_dynamic_regexp_catalog_search.js,syntetyczna,CWE-1333,CWE-1333/cwe_1333_dynamic_regexp_catalog_search.js,4,TP,SonarQube Cloud
+synthetic/CWE-1333/cwe_1333_async_log_pipeline.js,syntetyczna,CWE-1333,CWE-1333/cwe_1333_async_log_pipeline.js,5,TP,SonarQube Cloud
+synthetic/CWE-327/cwe_327_md5_literal_password.js,syntetyczna,CWE-327,CWE-327/cwe_327_md5_literal_password.js,1,TP,SonarQube Cloud
+synthetic/CWE-327/cwe_327_sha1_module_constant.js,syntetyczna,CWE-327,CWE-327/cwe_327_sha1_module_constant.js,2,FN,SonarQube Cloud
+synthetic/CWE-327/cwe_327_config_object_cipher.js,syntetyczna,CWE-327,CWE-327/cwe_327_config_object_cipher.js,3,FN,SonarQube Cloud
+synthetic/CWE-327/cwe_327_legacy_flag_fallback.ts,syntetyczna,CWE-327,CWE-327/cwe_327_legacy_flag_fallback.ts,4,FN,SonarQube Cloud
+synthetic/CWE-327/cwe_327_crypto_helper_factory.js,syntetyczna,CWE-327,CWE-327/cwe_327_crypto_helper_factory.js,5,FN,SonarQube Cloud
+synthetic/CWE-798/cwe_798_inline_stripe_api_key.js,syntetyczna,CWE-798,CWE-798/cwe_798_inline_stripe_api_key.js,1,TP,SonarQube Cloud
+synthetic/CWE-798/cwe_798_module_constant_github_token.js,syntetyczna,CWE-798,CWE-798/cwe_798_module_constant_github_token.js,2,TP,SonarQube Cloud
+synthetic/CWE-798/cwe_798_nested_config_object.js,syntetyczna,CWE-798,CWE-798/cwe_798_nested_config_object.js,3,TP,SonarQube Cloud
+synthetic/CWE-798/cwe_798_env_conditional_sandbox_key.ts,syntetyczna,CWE-798,CWE-798/cwe_798_env_conditional_sandbox_key.ts,4,FN,SonarQube Cloud
+synthetic/CWE-798/cwe_798_credential_provider_fallback.js,syntetyczna,CWE-798,CWE-798/cwe_798_credential_provider_fallback.js,5,TP,SonarQube Cloud
+synthetic/CWE-020/cwe_20_nan_pagination_ledger.js,syntetyczna,CWE-020,CWE-020/cwe_20_nan_pagination_ledger.js,1,FN,SonarQube Cloud
+synthetic/CWE-020/cwe_20_mass_assignment_profile.js,syntetyczna,CWE-020,CWE-020/cwe_20_mass_assignment_profile.js,2,FN,SonarQube Cloud
+synthetic/CWE-020/cwe_20_negative_quantity_checkout.js,syntetyczna,CWE-020,CWE-020/cwe_20_negative_quantity_checkout.js,3,FN,SonarQube Cloud
+synthetic/CWE-020/cwe_20_ssrf_webhook_callback.ts,syntetyczna,CWE-020,CWE-020/cwe_20_ssrf_webhook_callback.ts,4,TP,SonarQube Cloud
+synthetic/CWE-020/cwe_20_nosql_type_confusion_login.js,syntetyczna,CWE-020,CWE-020/cwe_20_nosql_type_confusion_login.js,5,TP,SonarQube Cloud
+synthetic/control_pool/cwe_94_safe_eval_express.js,syntetyczna,CWE-094,control_pool/cwe_94_safe_eval_express.js,1,TN,SonarQube Cloud
+synthetic/control_pool/cwe_94_safe_settimeout_string_scheduler.js,syntetyczna,CWE-094,control_pool/cwe_94_safe_settimeout_string_scheduler.js,2,TN,SonarQube Cloud
+synthetic/control_pool/cwe_94_safe_vm_run_in_new_context.ts,syntetyczna,CWE-094,control_pool/cwe_94_safe_vm_run_in_new_context.ts,3,TN,SonarQube Cloud
+synthetic/control_pool/cwe_94_safe_lodash_template_upload.js,syntetyczna,CWE-094,control_pool/cwe_94_safe_lodash_template_upload.js,4,TN,SonarQube Cloud
+synthetic/control_pool/cwe_94_safe_new_function_rules_engine.js,syntetyczna,CWE-094,control_pool/cwe_94_safe_new_function_rules_engine.js,5,TN,SonarQube Cloud
+synthetic/control_pool/cwe_78_safe_exec_ping_diagnostics.js,syntetyczna,CWE-078,control_pool/cwe_78_safe_exec_ping_diagnostics.js,1,FP,SonarQube Cloud
+synthetic/control_pool/cwe_78_safe_execsync_repo_clone.js,syntetyczna,CWE-078,control_pool/cwe_78_safe_execsync_repo_clone.js,2,FP,SonarQube Cloud
+synthetic/control_pool/cwe_78_safe_spawn_shell_true_converter.ts,syntetyczna,CWE-078,control_pool/cwe_78_safe_spawn_shell_true_converter.ts,3,FP,SonarQube Cloud
+synthetic/control_pool/cwe_78_safe_second_order_backup_worker.js,syntetyczna,CWE-078,control_pool/cwe_78_safe_second_order_backup_worker.js,4,TN,SonarQube Cloud
+synthetic/control_pool/cwe_78_safe_broken_sanitizer_media_queue.js,syntetyczna,CWE-078,control_pool/cwe_78_safe_broken_sanitizer_media_queue.js,5,FP,SonarQube Cloud
+synthetic/control_pool/cwe_89_safe_string_concat_login.js,syntetyczna,CWE-089,control_pool/cwe_89_safe_string_concat_login.js,1,TN,SonarQube Cloud
+synthetic/control_pool/cwe_89_safe_partial_parameterization_search.js,syntetyczna,CWE-089,control_pool/cwe_89_safe_partial_parameterization_search.js,2,TN,SonarQube Cloud
+synthetic/control_pool/cwe_89_safe_knex_whereraw_analytics.ts,syntetyczna,CWE-089,control_pool/cwe_89_safe_knex_whereraw_analytics.ts,3,TN,SonarQube Cloud
+synthetic/control_pool/cwe_89_safe_second_order_saved_filters.js,syntetyczna,CWE-089,control_pool/cwe_89_safe_second_order_saved_filters.js,4,TN,SonarQube Cloud
+synthetic/control_pool/cwe_89_safe_sequelize_literal_broken_escape.js,syntetyczna,CWE-089,control_pool/cwe_89_safe_sequelize_literal_broken_escape.js,5,TN,SonarQube Cloud
+synthetic/control_pool/cwe_79_safe_reflected_search_express.js,syntetyczna,CWE-079,control_pool/cwe_79_safe_reflected_search_express.js,1,FP,SonarQube Cloud
+synthetic/control_pool/cwe_79_safe_ejs_unescaped_profile.js,syntetyczna,CWE-079,control_pool/cwe_79_safe_ejs_unescaped_profile.js,2,FP,SonarQube Cloud
+synthetic/control_pool/cwe_79_safe_stored_comments_react_ssr.tsx,syntetyczna,CWE-079,control_pool/cwe_79_safe_stored_comments_react_ssr.tsx,3,TN,SonarQube Cloud
+synthetic/control_pool/cwe_79_safe_broken_sanitizer_markdown.js,syntetyczna,CWE-079,control_pool/cwe_79_safe_broken_sanitizer_markdown.js,4,TN,SonarQube Cloud
+synthetic/control_pool/cwe_79_safe_state_hydration_script_context.js,syntetyczna,CWE-079,control_pool/cwe_79_safe_state_hydration_script_context.js,5,TN,SonarQube Cloud
+synthetic/control_pool/cwe_22_safe_readfile_concat_docs.js,syntetyczna,CWE-022,control_pool/cwe_22_safe_readfile_concat_docs.js,1,TN,SonarQube Cloud
+synthetic/control_pool/cwe_22_safe_naive_replace_avatar.js,syntetyczna,CWE-022,control_pool/cwe_22_safe_naive_replace_avatar.js,2,TN,SonarQube Cloud
+synthetic/control_pool/cwe_22_safe_zip_slip_theme_import.js,syntetyczna,CWE-022,control_pool/cwe_22_safe_zip_slip_theme_import.js,3,TN,SonarQube Cloud
+synthetic/control_pool/cwe_22_safe_path_resolve_absolute_templates.ts,syntetyczna,CWE-022,control_pool/cwe_22_safe_path_resolve_absolute_templates.ts,4,TN,SonarQube Cloud
+synthetic/control_pool/cwe_22_safe_second_order_manifest_export.js,syntetyczna,CWE-022,control_pool/cwe_22_safe_second_order_manifest_export.js,5,TN,SonarQube Cloud
+synthetic/control_pool/cwe_1321_safe_recursive_merge_settings.js,syntetyczna,CWE-1321,control_pool/cwe_1321_safe_recursive_merge_settings.js,1,TN,SonarQube Cloud
+synthetic/control_pool/cwe_1321_safe_query_parser_filters.js,syntetyczna,CWE-1321,control_pool/cwe_1321_safe_query_parser_filters.js,2,TN,SonarQube Cloud
+synthetic/control_pool/cwe_1321_safe_gadget_chain_ejs_render.js,syntetyczna,CWE-1321,control_pool/cwe_1321_safe_gadget_chain_ejs_render.js,3,TN,SonarQube Cloud
+synthetic/control_pool/cwe_1321_safe_auth_flag_override.ts,syntetyczna,CWE-1321,control_pool/cwe_1321_safe_auth_flag_override.ts,4,TN,SonarQube Cloud
+synthetic/control_pool/cwe_1321_safe_websocket_path_assignment.js,syntetyczna,CWE-1321,control_pool/cwe_1321_safe_websocket_path_assignment.js,5,TN,SonarQube Cloud
+synthetic/control_pool/cwe_1333_safe_nested_quantifier_validation.js,syntetyczna,CWE-1333,control_pool/cwe_1333_safe_nested_quantifier_validation.js,1,TN,SonarQube Cloud
+synthetic/control_pool/cwe_1333_safe_hidden_match_forwarded_host.js,syntetyczna,CWE-1333,control_pool/cwe_1333_safe_hidden_match_forwarded_host.js,2,TN,SonarQube Cloud
+synthetic/control_pool/cwe_1333_safe_zod_schema_pattern.ts,syntetyczna,CWE-1333,control_pool/cwe_1333_safe_zod_schema_pattern.ts,3,TN,SonarQube Cloud
+synthetic/control_pool/cwe_1333_safe_dynamic_regexp_catalog_search.js,syntetyczna,CWE-1333,control_pool/cwe_1333_safe_dynamic_regexp_catalog_search.js,4,TN,SonarQube Cloud
+synthetic/control_pool/cwe_1333_safe_async_log_pipeline.js,syntetyczna,CWE-1333,control_pool/cwe_1333_safe_async_log_pipeline.js,5,TN,SonarQube Cloud
+synthetic/control_pool/cwe_327_safe_md5_literal_password.js,syntetyczna,CWE-327,control_pool/cwe_327_safe_md5_literal_password.js,1,TN,SonarQube Cloud
+synthetic/control_pool/cwe_327_safe_sha1_module_constant.js,syntetyczna,CWE-327,control_pool/cwe_327_safe_sha1_module_constant.js,2,TN,SonarQube Cloud
+synthetic/control_pool/cwe_327_safe_config_object_cipher.js,syntetyczna,CWE-327,control_pool/cwe_327_safe_config_object_cipher.js,3,TN,SonarQube Cloud
+synthetic/control_pool/cwe_327_safe_legacy_flag_fallback.ts,syntetyczna,CWE-327,control_pool/cwe_327_safe_legacy_flag_fallback.ts,4,TN,SonarQube Cloud
+synthetic/control_pool/cwe_327_safe_crypto_helper_factory.js,syntetyczna,CWE-327,control_pool/cwe_327_safe_crypto_helper_factory.js,5,TN,SonarQube Cloud
+synthetic/control_pool/cwe_798_safe_inline_stripe_api_key.js,syntetyczna,CWE-798,control_pool/cwe_798_safe_inline_stripe_api_key.js,1,TN,SonarQube Cloud
+synthetic/control_pool/cwe_798_safe_module_constant_github_token.js,syntetyczna,CWE-798,control_pool/cwe_798_safe_module_constant_github_token.js,2,TN,SonarQube Cloud
+synthetic/control_pool/cwe_798_safe_nested_config_object.js,syntetyczna,CWE-798,control_pool/cwe_798_safe_nested_config_object.js,3,TN,SonarQube Cloud
+synthetic/control_pool/cwe_798_safe_env_conditional_sandbox_key.ts,syntetyczna,CWE-798,control_pool/cwe_798_safe_env_conditional_sandbox_key.ts,4,TN,SonarQube Cloud
+synthetic/control_pool/cwe_798_safe_credential_provider_fallback.js,syntetyczna,CWE-798,control_pool/cwe_798_safe_credential_provider_fallback.js,5,TN,SonarQube Cloud
+synthetic/control_pool/cwe_20_safe_nan_pagination_ledger.js,syntetyczna,CWE-020,control_pool/cwe_20_safe_nan_pagination_ledger.js,1,TN,SonarQube Cloud
+synthetic/control_pool/cwe_20_safe_mass_assignment_profile.js,syntetyczna,CWE-020,control_pool/cwe_20_safe_mass_assignment_profile.js,2,TN,SonarQube Cloud
+synthetic/control_pool/cwe_20_safe_negative_quantity_checkout.js,syntetyczna,CWE-020,control_pool/cwe_20_safe_negative_quantity_checkout.js,3,TN,SonarQube Cloud
+synthetic/control_pool/cwe_20_safe_ssrf_webhook_callback.ts,syntetyczna,CWE-020,control_pool/cwe_20_safe_ssrf_webhook_callback.ts,4,TN,SonarQube Cloud
+synthetic/control_pool/cwe_20_safe_nosql_type_confusion_login.js,syntetyczna,CWE-020,control_pool/cwe_20_safe_nosql_type_confusion_login.js,5,FP,SonarQube Cloud
+real/CVE-2014-9682_dns-sync/vulnerable/lib/dns-sync.js,rzeczywista,CWE-078,dns-sync (vulnerable),,TP,CodeQL
+real/CVE-2014-9682_dns-sync/fixed/lib/dns-sync.js,rzeczywista,CWE-078,dns-sync (fixed),,FP,CodeQL
+real/CVE-2017-16083_node-simple-router/vulnerable/lib/router.js,rzeczywista,CWE-022,node-simple-router (vulnerable),,FN,CodeQL
+real/CVE-2017-16083_node-simple-router/fixed/lib/router.js,rzeczywista,CWE-022,node-simple-router (fixed),,TN,CodeQL
+real/CVE-2017-16117_slug/vulnerable/slug.js,rzeczywista,CWE-1333,slug (vulnerable),,TP,CodeQL
+real/CVE-2017-16117_slug/fixed/slug.js,rzeczywista,CWE-1333,slug (fixed),,TN,CodeQL
+real/CVE-2017-16118_forwarded/vulnerable/index.js,rzeczywista,CWE-1333,forwarded (vulnerable),,TP,CodeQL
+real/CVE-2017-16118_forwarded/fixed/index.js,rzeczywista,CWE-1333,forwarded (fixed),,TN,CodeQL
+real/CVE-2017-16119_fresh/vulnerable/index.js,rzeczywista,CWE-1333,fresh (vulnerable),,TP,CodeQL
+real/CVE-2017-16119_fresh/fixed/index.js,rzeczywista,CWE-1333,fresh (fixed),,TN,CodeQL
+real/CVE-2017-18077_brace-expansion/vulnerable/index.js,rzeczywista,CWE-1333,brace-expansion (vulnerable),,TP,CodeQL
+real/CVE-2017-18077_brace-expansion/fixed/index.js,rzeczywista,CWE-1333,brace-expansion (fixed),,TN,CodeQL
+real/CVE-2018-13797_macaddress/vulnerable/lib/unix.js,rzeczywista,CWE-078,macaddress (vulnerable),,TP,CodeQL
+real/CVE-2018-13797_macaddress/fixed/lib/unix.js,rzeczywista,CWE-078,macaddress (fixed),,TN,CodeQL
+real/CVE-2018-16461_libnmap/vulnerable/lib/classes/tools.js,rzeczywista,CWE-078,libnmap (vulnerable),,TP,CodeQL
+real/CVE-2018-16461_libnmap/fixed/lib/classes/tools.js,rzeczywista,CWE-078,libnmap (fixed),,TN,CodeQL
+real/CVE-2018-16462_apex-publish-static-files/vulnerable/index.js,rzeczywista,CWE-078,apex-publish-static-files (vulnerable),,TP,CodeQL
+real/CVE-2018-16462_apex-publish-static-files/fixed/index.js,rzeczywista,CWE-078,apex-publish-static-files (fixed),,TN,CodeQL
+real/CVE-2018-16472_cached-path-relative/vulnerable/lib/index.js,rzeczywista,CWE-1321,cached-path-relative (vulnerable),,FN,CodeQL
+real/CVE-2018-16472_cached-path-relative/fixed/lib/index.js,rzeczywista,CWE-1321,cached-path-relative (fixed),,TN,CodeQL
+real/CVE-2018-16485_m-server/vulnerable/lib/index.js,rzeczywista,CWE-022,m-server (vulnerable),,TP,CodeQL
+real/CVE-2018-16485_m-server/fixed/lib/index.js,rzeczywista,CWE-022,m-server (fixed),,TN,CodeQL
+real/CVE-2018-16487_lodash/vulnerable/lodash.js,rzeczywista,CWE-1321,lodash (vulnerable),,TP,CodeQL
+real/CVE-2018-16487_lodash/fixed/lodash.js,rzeczywista,CWE-1321,lodash (fixed),,FP,CodeQL
+real/CVE-2018-3715_glance/vulnerable/index.js,rzeczywista,CWE-022,glance (vulnerable),,TP,CodeQL
+real/CVE-2018-3715_glance/fixed/index.js,rzeczywista,CWE-022,glance (fixed),,TN,CodeQL
+real/CVE-2018-3719_mixin-deep/vulnerable/index.js,rzeczywista,CWE-1321,mixin-deep (vulnerable),,TP,CodeQL
+real/CVE-2018-3719_mixin-deep/fixed/index.js,rzeczywista,CWE-1321,mixin-deep (fixed),,TN,CodeQL
+real/CVE-2018-3723_defaults-deep/vulnerable/index.js,rzeczywista,CWE-1321,defaults-deep (vulnerable),,TP,CodeQL
+real/CVE-2018-3723_defaults-deep/fixed/index.js,rzeczywista,CWE-1321,defaults-deep (fixed),,TN,CodeQL
+real/CVE-2018-3728_hoek/vulnerable/lib/index.js,rzeczywista,CWE-1321,hoek (vulnerable),,TP,CodeQL
+real/CVE-2018-3728_hoek/fixed/lib/index.js,rzeczywista,CWE-1321,hoek (fixed),,FP,CodeQL
+real/CVE-2018-3772_whereis/vulnerable/index.js,rzeczywista,CWE-078,whereis (vulnerable),,TP,CodeQL
+real/CVE-2018-3772_whereis/fixed/index.js,rzeczywista,CWE-078,whereis (fixed),,TN,CodeQL
+real/CVE-2020-26289_date-and-time/vulnerable/date-and-time.js,rzeczywista,CWE-1333,date-and-time (vulnerable),,TP,CodeQL
+real/CVE-2020-26289_date-and-time/fixed/date-and-time.js,rzeczywista,CWE-1333,date-and-time (fixed),,FP,CodeQL
+real/CVE-2020-6836_hot-formula-parser/vulnerable/lib/grammar-parser/grammar-parser.js,rzeczywista,CWE-094,hot-formula-parser (vulnerable),,FN,CodeQL
+real/CVE-2020-6836_hot-formula-parser/fixed/lib/grammar-parser/grammar-parser.js,rzeczywista,CWE-094,hot-formula-parser (fixed),,TN,CodeQL
+real/CVE-2020-7640_pixl-class/vulnerable/class.js,rzeczywista,CWE-094,pixl-class (vulnerable),,TP,CodeQL
+real/CVE-2020-7640_pixl-class/fixed/class.js,rzeczywista,CWE-094,pixl-class (fixed),,TN,CodeQL
+real/CVE-2020-7677_thenify/vulnerable/index.js,rzeczywista,CWE-094,thenify (vulnerable),,TP,CodeQL
+real/CVE-2020-7677_thenify/fixed/index.js,rzeczywista,CWE-094,thenify (fixed),,TN,CodeQL
+real/hangersteak_0.2.2_hangersteak/vulnerable/lib/hangersteak.js,rzeczywista,CWE-022,hangersteak (vulnerable),,FN,CodeQL
+real/hangersteak_0.2.2_hangersteak/fixed/lib/hangersteak.js,rzeczywista,CWE-022,hangersteak (fixed),,TN,CodeQL
+real/is-my-json-valid_2.20.0_is-my-json-valid/vulnerable/index.js,rzeczywista,CWE-094,is-my-json-valid (vulnerable),,FN,CodeQL
+real/is-my-json-valid_2.20.0_is-my-json-valid/fixed/index.js,rzeczywista,CWE-094,is-my-json-valid (fixed),,TN,CodeQL
+real/js-yaml_3.13.0_js-yaml/vulnerable/lib/js-yaml/type/js/function.js,rzeczywista,CWE-094,js-yaml (vulnerable),,FN,CodeQL
+real/js-yaml_3.13.0_js-yaml/fixed/lib/js-yaml/type/js/function.js,rzeczywista,CWE-094,js-yaml (fixed),,TN,CodeQL
+real/public_0.1.2_public/vulnerable/bin/public,rzeczywista,CWE-022,public (vulnerable),,FN,CodeQL
+real/public_0.1.2_public/fixed/bin/public,rzeczywista,CWE-022,public (fixed),,TN,CodeQL
+real/CVE-2014-9682_dns-sync/vulnerable/lib/dns-sync.js,rzeczywista,CWE-078,dns-sync (vulnerable),,FN,SonarQube Cloud
+real/CVE-2014-9682_dns-sync/fixed/lib/dns-sync.js,rzeczywista,CWE-078,dns-sync (fixed),,TN,SonarQube Cloud
+real/CVE-2017-16083_node-simple-router/vulnerable/lib/router.js,rzeczywista,CWE-022,node-simple-router (vulnerable),,FN,SonarQube Cloud
+real/CVE-2017-16083_node-simple-router/fixed/lib/router.js,rzeczywista,CWE-022,node-simple-router (fixed),,TN,SonarQube Cloud
+real/CVE-2017-16117_slug/vulnerable/slug.js,rzeczywista,CWE-1333,slug (vulnerable),,FN,SonarQube Cloud
+real/CVE-2017-16117_slug/fixed/slug.js,rzeczywista,CWE-1333,slug (fixed),,TN,SonarQube Cloud
+real/CVE-2017-16118_forwarded/vulnerable/index.js,rzeczywista,CWE-1333,forwarded (vulnerable),,FN,SonarQube Cloud
+real/CVE-2017-16118_forwarded/fixed/index.js,rzeczywista,CWE-1333,forwarded (fixed),,TN,SonarQube Cloud
+real/CVE-2017-16119_fresh/vulnerable/index.js,rzeczywista,CWE-1333,fresh (vulnerable),,FN,SonarQube Cloud
+real/CVE-2017-16119_fresh/fixed/index.js,rzeczywista,CWE-1333,fresh (fixed),,TN,SonarQube Cloud
+real/CVE-2017-18077_brace-expansion/vulnerable/index.js,rzeczywista,CWE-1333,brace-expansion (vulnerable),,TP,SonarQube Cloud
+real/CVE-2017-18077_brace-expansion/fixed/index.js,rzeczywista,CWE-1333,brace-expansion (fixed),,TN,SonarQube Cloud
+real/CVE-2018-13797_macaddress/vulnerable/lib/unix.js,rzeczywista,CWE-078,macaddress (vulnerable),,FN,SonarQube Cloud
+real/CVE-2018-13797_macaddress/fixed/lib/unix.js,rzeczywista,CWE-078,macaddress (fixed),,FP,SonarQube Cloud
+real/CVE-2018-16461_libnmap/vulnerable/lib/classes/tools.js,rzeczywista,CWE-078,libnmap (vulnerable),,FN,SonarQube Cloud
+real/CVE-2018-16461_libnmap/fixed/lib/classes/tools.js,rzeczywista,CWE-078,libnmap (fixed),,TN,SonarQube Cloud
+real/CVE-2018-16462_apex-publish-static-files/vulnerable/index.js,rzeczywista,CWE-078,apex-publish-static-files (vulnerable),,FN,SonarQube Cloud
+real/CVE-2018-16462_apex-publish-static-files/fixed/index.js,rzeczywista,CWE-078,apex-publish-static-files (fixed),,TN,SonarQube Cloud
+real/CVE-2018-16472_cached-path-relative/vulnerable/lib/index.js,rzeczywista,CWE-1321,cached-path-relative (vulnerable),,FN,SonarQube Cloud
+real/CVE-2018-16472_cached-path-relative/fixed/lib/index.js,rzeczywista,CWE-1321,cached-path-relative (fixed),,TN,SonarQube Cloud
+real/CVE-2018-16485_m-server/vulnerable/lib/index.js,rzeczywista,CWE-022,m-server (vulnerable),,TP,SonarQube Cloud
+real/CVE-2018-16485_m-server/fixed/lib/index.js,rzeczywista,CWE-022,m-server (fixed),,TN,SonarQube Cloud
+real/CVE-2018-16487_lodash/vulnerable/lodash.js,rzeczywista,CWE-1321,lodash (vulnerable),,FN,SonarQube Cloud
+real/CVE-2018-16487_lodash/fixed/lodash.js,rzeczywista,CWE-1321,lodash (fixed),,TN,SonarQube Cloud
+real/CVE-2018-3715_glance/vulnerable/index.js,rzeczywista,CWE-022,glance (vulnerable),,TP,SonarQube Cloud
+real/CVE-2018-3715_glance/fixed/index.js,rzeczywista,CWE-022,glance (fixed),,TN,SonarQube Cloud
+real/CVE-2018-3719_mixin-deep/vulnerable/index.js,rzeczywista,CWE-1321,mixin-deep (vulnerable),,FN,SonarQube Cloud
+real/CVE-2018-3719_mixin-deep/fixed/index.js,rzeczywista,CWE-1321,mixin-deep (fixed),,TN,SonarQube Cloud
+real/CVE-2018-3723_defaults-deep/vulnerable/index.js,rzeczywista,CWE-1321,defaults-deep (vulnerable),,FN,SonarQube Cloud
+real/CVE-2018-3723_defaults-deep/fixed/index.js,rzeczywista,CWE-1321,defaults-deep (fixed),,TN,SonarQube Cloud
+real/CVE-2018-3728_hoek/vulnerable/lib/index.js,rzeczywista,CWE-1321,hoek (vulnerable),,FN,SonarQube Cloud
+real/CVE-2018-3728_hoek/fixed/lib/index.js,rzeczywista,CWE-1321,hoek (fixed),,TN,SonarQube Cloud
+real/CVE-2018-3772_whereis/vulnerable/index.js,rzeczywista,CWE-078,whereis (vulnerable),,FN,SonarQube Cloud
+real/CVE-2018-3772_whereis/fixed/index.js,rzeczywista,CWE-078,whereis (fixed),,FP,SonarQube Cloud
+real/CVE-2020-26289_date-and-time/vulnerable/date-and-time.js,rzeczywista,CWE-1333,date-and-time (vulnerable),,FN,SonarQube Cloud
+real/CVE-2020-26289_date-and-time/fixed/date-and-time.js,rzeczywista,CWE-1333,date-and-time (fixed),,TN,SonarQube Cloud
+real/CVE-2020-6836_hot-formula-parser/vulnerable/lib/grammar-parser/grammar-parser.js,rzeczywista,CWE-094,hot-formula-parser (vulnerable),,TP,SonarQube Cloud
+real/CVE-2020-6836_hot-formula-parser/fixed/lib/grammar-parser/grammar-parser.js,rzeczywista,CWE-094,hot-formula-parser (fixed),,TN,SonarQube Cloud
+real/CVE-2020-7640_pixl-class/vulnerable/class.js,rzeczywista,CWE-094,pixl-class (vulnerable),,TP,SonarQube Cloud
+real/CVE-2020-7640_pixl-class/fixed/class.js,rzeczywista,CWE-094,pixl-class (fixed),,TN,SonarQube Cloud
+real/CVE-2020-7677_thenify/vulnerable/index.js,rzeczywista,CWE-094,thenify (vulnerable),,TP,SonarQube Cloud
+real/CVE-2020-7677_thenify/fixed/index.js,rzeczywista,CWE-094,thenify (fixed),,TN,SonarQube Cloud
+real/hangersteak_0.2.2_hangersteak/vulnerable/lib/hangersteak.js,rzeczywista,CWE-022,hangersteak (vulnerable),,FN,SonarQube Cloud
+real/hangersteak_0.2.2_hangersteak/fixed/lib/hangersteak.js,rzeczywista,CWE-022,hangersteak (fixed),,TN,SonarQube Cloud
+real/is-my-json-valid_2.20.0_is-my-json-valid/vulnerable/index.js,rzeczywista,CWE-094,is-my-json-valid (vulnerable),,FN,SonarQube Cloud
+real/is-my-json-valid_2.20.0_is-my-json-valid/fixed/index.js,rzeczywista,CWE-094,is-my-json-valid (fixed),,TN,SonarQube Cloud
+real/js-yaml_3.13.0_js-yaml/vulnerable/lib/js-yaml/type/js/function.js,rzeczywista,CWE-094,js-yaml (vulnerable),,TP,SonarQube Cloud
+real/js-yaml_3.13.0_js-yaml/fixed/lib/js-yaml/type/js/function.js,rzeczywista,CWE-094,js-yaml (fixed),,FP,SonarQube Cloud
+real/public_0.1.2_public/vulnerable/bin/public,rzeczywista,CWE-022,public (vulnerable),,FN,SonarQube Cloud
+real/public_0.1.2_public/fixed/bin/public,rzeczywista,CWE-022,public (fixed),,TN,SonarQube Cloud

@@ -1,0 +1,41 @@
+zadanie,kontrola,utworzenie,zakonczenie,sekundy,wynik
+13,CodeQL,2026-09-04T16:22:51Z,2026-09-04T16:24:58Z,127,failure
+13,SonarCloud Code Analysis,2026-09-04T16:22:51Z,2026-09-04T16:24:00Z,69,success
+13,Analyze (javascript-typescript),2026-09-04T16:22:51Z,2026-09-04T16:25:05Z,134,success
+13,SonarCloud Scan,2026-09-04T16:22:51Z,2026-09-04T16:24:03Z,72,success
+12,CodeQL,2026-09-04T16:07:44Z,2026-09-04T16:10:07Z,143,failure
+12,SonarCloud Code Analysis,2026-09-04T16:07:44Z,2026-09-04T16:08:59Z,75,success
+12,SonarCloud Scan,2026-09-04T16:07:44Z,2026-09-04T16:09:03Z,79,success
+12,Analyze (javascript-typescript),2026-09-04T16:07:44Z,2026-09-04T16:10:11Z,147,success
+11,CodeQL,2026-09-04T15:52:38Z,2026-09-04T15:54:37Z,119,failure
+11,SonarCloud Code Analysis,2026-09-04T15:52:38Z,2026-09-04T15:53:42Z,64,success
+11,Analyze (javascript-typescript),2026-09-04T15:52:38Z,2026-09-04T15:54:43Z,125,success
+11,SonarCloud Scan,2026-09-04T15:52:38Z,2026-09-04T15:53:45Z,67,success
+10,CodeQL,2026-09-04T15:37:32Z,2026-09-04T15:39:09Z,97,failure
+10,SonarCloud Code Analysis,2026-09-04T15:37:32Z,2026-09-04T15:38:38Z,66,success
+10,SonarCloud Scan,2026-09-04T15:37:32Z,2026-09-04T15:38:40Z,68,success
+10,Analyze (javascript-typescript),2026-09-04T15:37:32Z,2026-09-04T15:39:14Z,102,success
+9,CodeQL,2026-09-04T15:22:25Z,2026-09-04T15:24:21Z,116,failure
+9,SonarCloud Code Analysis,2026-09-04T15:22:25Z,2026-09-04T15:23:39Z,74,success
+9,Analyze (javascript-typescript),2026-09-04T15:22:25Z,2026-09-04T15:24:25Z,120,success
+9,SonarCloud Scan,2026-09-04T15:22:25Z,2026-09-04T15:23:43Z,78,success
+8,CodeQL,2026-09-04T11:38:39Z,2026-09-04T11:47:38Z,539,failure
+8,SonarCloud Code Analysis,2026-09-04T11:38:39Z,2026-09-04T11:39:52Z,73,success
+8,SonarCloud Scan,2026-09-04T11:38:39Z,2026-09-04T11:39:56Z,77,success
+8,Analyze (javascript-typescript),2026-09-04T11:38:39Z,2026-09-04T11:47:44Z,545,success
+7,CodeQL,2026-09-04T11:32:32Z,2026-09-04T11:39:33Z,421,failure
+7,SonarCloud Code Analysis,2026-09-04T11:32:32Z,2026-09-04T11:37:10Z,278,success
+7,SonarCloud Scan,2026-09-04T11:32:32Z,2026-09-04T11:37:13Z,281,success
+7,Analyze (javascript-typescript),2026-09-04T11:32:32Z,2026-09-04T11:39:40Z,428,success
+6,CodeQL,2026-09-04T11:26:26Z,2026-09-04T11:35:11Z,525,failure
+6,SonarCloud Code Analysis,2026-09-04T11:26:26Z,2026-09-04T11:28:59Z,153,success
+6,Analyze (javascript-typescript),2026-09-04T11:26:26Z,2026-09-04T11:35:19Z,533,success
+6,SonarCloud Scan,2026-09-04T11:26:26Z,2026-09-04T11:29:03Z,157,success
+5,CodeQL,2026-09-04T11:20:19Z,2026-09-04T11:22:42Z,143,failure
+5,SonarCloud Code Analysis,2026-09-04T11:20:19Z,2026-09-04T11:22:04Z,105,success
+5,SonarCloud Scan,2026-09-04T11:20:19Z,2026-09-04T11:22:08Z,109,success
+5,Analyze (javascript-typescript),2026-09-04T11:20:19Z,2026-09-04T11:22:46Z,147,success
+4,SonarCloud Code Analysis,2026-09-04T11:14:13Z,2026-09-04T11:22:17Z,484,success
+4,CodeQL,2026-09-04T11:14:13Z,2026-09-04T11:19:20Z,307,failure
+4,Analyze (javascript-typescript),2026-09-04T11:14:13Z,2026-09-04T11:19:25Z,312,success
+4,SonarCloud Scan,2026-09-04T11:14:13Z,2026-09-04T11:22:20Z,487,success

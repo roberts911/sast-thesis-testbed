@@ -1,0 +1,489 @@
+SonarCloud Scan	Set up job	﻿2026-09-04T16:22:57.3440693Z Current runner version: '2.337.0'
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3467743Z ##[group]Runner Image Provisioner
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3468742Z Hosted Compute Agent
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3469344Z Version: 20260828.587
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3470125Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3470897Z Build Date: 2026-08-28T16:44:25Z
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3471794Z Worker ID: {466c2ddd-17af-4bca-a56e-9c31819470c2}
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3472873Z Azure Region: eastus2
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3473896Z ##[endgroup]
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3475995Z ##[group]Operating System
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3476949Z Ubuntu
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3477786Z 24.04.4
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3478567Z LTS
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3479334Z ##[endgroup]
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3480341Z ##[group]Runner Image
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3481284Z Image: ubuntu-24.04
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3482199Z Version: 20260831.293.1
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3484187Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260831.293/images/ubuntu/Ubuntu2404-Readme.md
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3487050Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260831.293
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3488518Z ##[endgroup]
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3490421Z ##[group]GITHUB_TOKEN Permissions
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3493611Z Contents: read
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3494673Z Metadata: read
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3495642Z Packages: read
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3496511Z ##[endgroup]
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3499590Z Secret source: Actions
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3501509Z Prepare workflow directory
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.3971000Z Prepare all required actions
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.4040052Z Getting action download info
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.6298710Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.8147047Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+SonarCloud Scan	Set up job	2026-09-04T16:22:57.9648569Z Download action repository 'SonarSource/sonarcloud-github-action@master' (SHA:ba3875ecf642b2129de2b589510c81a8b53dbf4e)
+SonarCloud Scan	Set up job	2026-09-04T16:22:58.1831247Z Getting action download info
+SonarCloud Scan	Set up job	2026-09-04T16:22:58.2606384Z Download action repository 'SonarSource/sonarqube-scan-action@v5.0.0' (SHA:0303d6b62e310685c0e34d0b9cde218036885c4d)
+SonarCloud Scan	Set up job	2026-09-04T16:22:58.3844344Z Getting action download info
+SonarCloud Scan	Set up job	2026-09-04T16:22:58.4462203Z Download action repository 'actions/cache@v4' (SHA:0057852bfaa89a56745cba8c7296529d2fc39830)
+SonarCloud Scan	Set up job	2026-09-04T16:22:58.6495390Z Complete job name: SonarCloud Scan
+SonarCloud Scan	Run actions/checkout@v4	﻿2026-09-04T16:22:58.7347993Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7358936Z ##[group]Run actions/checkout@v4
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7359881Z with:
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7360385Z   fetch-depth: 0
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7361024Z   repository: roberts911/sast-thesis-testbed
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7369692Z   token: ***
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7370226Z   ssh-strict: true
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7370783Z   ssh-user: git
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7371351Z   persist-credentials: true
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7372003Z   clean: true
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7372566Z   sparse-checkout-cone-mode: true
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7373397Z   fetch-tags: false
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7373963Z   show-progress: true
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7374544Z   lfs: false
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7375092Z   submodules: false
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7375735Z   set-safe-directory: true
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7376430Z   allow-unsafe-pr-checkout: false
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.7377385Z ##[endgroup]
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8441630Z Syncing repository: roberts911/sast-thesis-testbed
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8546269Z ##[group]Getting Git version info
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8548807Z Working directory is '/home/runner/work/sast-thesis-testbed/sast-thesis-testbed'
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8551843Z [command]/usr/bin/git version
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8555684Z git version 2.55.0
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8558546Z ##[endgroup]
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8567542Z Temporarily overriding HOME='/home/runner/work/_temp/9aa704fd-55c7-4cb6-af5c-9ee9cc89b6e2' before making global git config changes
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8570947Z Adding repository directory to the temporary git global config as a safe directory
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8573376Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/sast-thesis-testbed/sast-thesis-testbed
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8584070Z Deleting the contents of '/home/runner/work/sast-thesis-testbed/sast-thesis-testbed'
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8588275Z ##[group]Initializing the repository
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8601729Z [command]/usr/bin/git init /home/runner/work/sast-thesis-testbed/sast-thesis-testbed
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8684144Z hint: Using 'master' as the name for the initial branch. This default branch name
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8685960Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8687701Z hint: to use in all of your new repositories, which will suppress this warning,
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8688909Z hint: call:
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8689422Z hint:
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8690132Z hint: 	git config --global init.defaultBranch <name>
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8691041Z hint:
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8692061Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8693835Z hint: 'development'. The just-created branch can be renamed via this command:
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8694990Z hint:
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8695710Z hint: 	git branch -m <name>
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8696372Z hint:
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8697294Z hint: Disable this message with "git config set advice.defaultBranchName false"
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8699150Z Initialized empty Git repository in /home/runner/work/sast-thesis-testbed/sast-thesis-testbed/.git/
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8703610Z [command]/usr/bin/git remote add origin https://github.com/roberts911/sast-thesis-testbed
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8783539Z ##[endgroup]
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8785121Z ##[group]Disabling automatic garbage collection
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8787099Z [command]/usr/bin/git config --local gc.auto 0
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8822191Z ##[endgroup]
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8823905Z ##[group]Setting up auth
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8828264Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.8864901Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.9215387Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.9279354Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.9540259Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.9583772Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.9830367Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.9871988Z ##[endgroup]
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.9873895Z ##[group]Fetching the repository
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:58.9884281Z [command]/usr/bin/git -c protocol.version=2 fetch --prune --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/* +refs/tags/*:refs/tags/* +9109fdc4b5807839156023c871aa1347c79fd642:refs/remotes/pull/13/merge
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9234359Z From https://github.com/roberts911/sast-thesis-testbed
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9236710Z  * [new branch]      feature/add-synthetic-layer              -> origin/feature/add-synthetic-layer
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9237879Z  * [new branch]      main                                     -> origin/main
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9238844Z  * [new branch]      pomiar-1                                 -> origin/pomiar-1
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9240362Z  * [new branch]      pomiar-2                                 -> origin/pomiar-2
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9241376Z  * [new branch]      pomiar-3                                 -> origin/pomiar-3
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9242339Z  * [new branch]      pomiar-4                                 -> origin/pomiar-4
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9243540Z  * [new branch]      pomiar-5                                 -> origin/pomiar-5
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9244676Z  * [new branch]      porzadki                                 -> origin/porzadki
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9245851Z  * [new branch]      warstwa-rzeczywista                      -> origin/warstwa-rzeczywista
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9247227Z  * [new ref]         9109fdc4b5807839156023c871aa1347c79fd642 -> pull/13/merge
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9250553Z ##[endgroup]
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9251798Z ##[group]Determining the checkout info
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9253292Z ##[endgroup]
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9254215Z [command]/usr/bin/git sparse-checkout disable
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9303340Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9341389Z ##[group]Checking out the ref
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:22:59.9345697Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/13/merge
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1465986Z Note: switching to 'refs/remotes/pull/13/merge'.
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1467224Z 
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1468149Z You are in 'detached HEAD' state. You can look around, make experimental
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1470271Z changes and commit them, and you can discard any commits you make in this
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1472223Z state without impacting any branches by switching back to a branch.
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1473553Z 
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1474472Z If you want to create a new branch to retain commits you create, you may
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1476434Z do so (now or later) by using -c with the switch command. Example:
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1477482Z 
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1478181Z   git switch -c <new-branch-name>
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1479015Z 
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1479550Z Or undo this operation with:
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1480166Z 
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1480673Z   git switch -
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1481233Z 
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1482063Z Turn off this advice by setting config variable advice.detachedHead to false
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1483394Z 
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1484389Z HEAD is now at 9109fdc Merge e329e9c806c78b709a82f5980e274b0bef5f5700 into 303a698631aa61bd9b8f2e187319149666e87eba
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1488440Z ##[endgroup]
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1532205Z [command]/usr/bin/git log -1 --format=%H
+SonarCloud Scan	Run actions/checkout@v4	2026-09-04T16:23:00.1561697Z 9109fdc4b5807839156023c871aa1347c79fd642
+SonarCloud Scan	Setup Node.js	﻿2026-09-04T16:23:00.1885197Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:00.1887855Z ##[group]Run actions/setup-node@v4
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:00.1888753Z with:
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:00.1889528Z   node-version: 20
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:00.1890341Z   always-auth: false
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:00.1891159Z   check-latest: false
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:00.1894999Z   token: ***
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:00.1895800Z ##[endgroup]
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:00.3356009Z Attempting to download 20...
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:00.3467536Z (node:2259) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:00.3470465Z (Use `node --trace-deprecation ...` to show where the warning was created)
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:00.9964030Z Acquiring 20.20.2 - x64 from https://github.com/actions/node-versions/releases/download/20.20.2-23521894959/node-20.20.2-linux-x64.tar.gz
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:01.3865435Z Extracting ...
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:01.3993313Z [command]/usr/bin/tar xz --strip 1 --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/1f51f545-d001-44a9-8e35-24c69eecc304 -f /home/runner/work/_temp/ca08e312-ae65-4d01-b725-167a4a7f21ed
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:02.5048849Z Adding to the cache ...
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:03.9865126Z ##[group]Environment details
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:04.2083479Z node: v20.20.2
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:04.2084155Z npm: 10.8.2
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:04.2084529Z yarn: 1.22.22
+SonarCloud Scan	Setup Node.js	2026-09-04T16:23:04.2085245Z ##[endgroup]
+SonarCloud Scan	Install dependencies	﻿2026-09-04T16:23:04.2277341Z ##[group]Run npm install --ignore-scripts
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:04.2277802Z ^[[36;1mnpm install --ignore-scripts^[[0m
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:04.2325717Z shell: /usr/bin/bash -e {0}
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:04.2326038Z ##[endgroup]
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:14.6633913Z npm warn deprecated dottie@2.0.7: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:14.7058243Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:15.0271233Z npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:15.2986804Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:15.3295422Z npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:15.6124382Z npm warn deprecated gauge@3.0.2: This package is no longer supported.
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:15.6469015Z npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:15.6885079Z npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:16.0869044Z npm warn deprecated multer@1.4.5-lts.2: Multer 1.x is impacted by a number of vulnerabilities, which have been patched in 2.x. You should upgrade to the latest 2.x version.
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:16.3463420Z npm warn deprecated tar@6.2.1: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:16.5227466Z npm warn deprecated uuid@8.3.2: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:18.7334360Z 
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:18.7335585Z added 389 packages, and audited 390 packages in 14s
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:18.7336734Z 
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:18.7337397Z 43 packages are looking for funding
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:18.7337981Z   run `npm fund` for details
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:18.7460817Z 
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:18.7461659Z 11 vulnerabilities (7 moderate, 3 high, 1 critical)
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:18.7462107Z 
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:18.7462422Z To address issues that do not require attention, run:
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:18.7463121Z   npm audit fix
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:18.7463362Z 
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:18.7463732Z To address all issues (including breaking changes), run:
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:18.7464272Z   npm audit fix --force
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:18.7464507Z 
+SonarCloud Scan	Install dependencies	2026-09-04T16:23:18.7464692Z Run `npm audit` for details.
+SonarCloud Scan	SonarCloud Scan	﻿2026-09-04T16:23:18.7781562Z ##[group]Run SonarSource/sonarcloud-github-action@master
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.7781948Z with:
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.7782177Z   scannerVersion: 7.0.2.4839
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.7782623Z   scannerBinariesUrl: https://binaries.sonarsource.com/Distribution/sonar-scanner-cli
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.7783309Z env:
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.7785961Z   GITHUB_TOKEN: ***
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.7786281Z   SONAR_TOKEN: ***
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.7786509Z ##[endgroup]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.7843968Z ##[start-action display=Deprecation warning;id=__SonarSource_sonarcloud-github-action.__run]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.7869447Z ##[group]Run echo "::warning title=SonarScanner::This action is deprecated and will be removed in a future release. Please use the sonarqube-scan-action action instead. The sonarqube-scan-action is a drop-in replacement for this action."
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.7871159Z ^[[36;1mecho "::warning title=SonarScanner::This action is deprecated and will be removed in a future release. Please use the sonarqube-scan-action action instead. The sonarqube-scan-action is a drop-in replacement for this action."^[[0m
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.7914599Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.7914972Z env:
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.7917592Z   GITHUB_TOKEN: ***
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.7917903Z   SONAR_TOKEN: ***
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.7918125Z ##[endgroup]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8000881Z ##[warning]This action is deprecated and will be removed in a future release. Please use the sonarqube-scan-action action instead. The sonarqube-scan-action is a drop-in replacement for this action.
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8011795Z ##[end-action id=__SonarSource_sonarcloud-github-action.__run;outcome=success;conclusion=success;duration_ms=16]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8040525Z ##[start-action display=SonarQube Cloud Scan;id=__SonarSource_sonarcloud-github-action.__SonarSource_sonarqube-scan-action]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8115133Z ##[group]Run SonarSource/sonarqube-scan-action@v5.0.0
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8115473Z with:
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8115697Z   scannerVersion: 7.0.2.4839
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8116151Z   scannerBinariesUrl: https://binaries.sonarsource.com/Distribution/sonar-scanner-cli
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8116588Z env:
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8119221Z   GITHUB_TOKEN: ***
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8119530Z   SONAR_TOKEN: ***
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8119749Z ##[endgroup]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8126347Z ##[start-action display=Sanity checks;id=__SonarSource_sonarcloud-github-action.__SonarSource_sonarqube-scan-action.__run]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8142159Z ##[group]Run ${GITHUB_ACTION_PATH}/scripts/sanity-checks.sh
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8142614Z ^[[36;1m${GITHUB_ACTION_PATH}/scripts/sanity-checks.sh^[[0m
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8181487Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8181856Z env:
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8184710Z   GITHUB_TOKEN: ***
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8185018Z   SONAR_TOKEN: ***
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8185249Z   INPUT_PROJECTBASEDIR: 
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8185496Z ##[endgroup]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8275925Z ##[end-action id=__SonarSource_sonarcloud-github-action.__SonarSource_sonarqube-scan-action.__run;outcome=success;conclusion=success;duration_ms=14]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8279217Z ##[start-action display=Load Sonar Scanner CLI from cache;id=__SonarSource_sonarcloud-github-action.__SonarSource_sonarqube-scan-action.sonar-scanner-cli]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8340333Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8341539Z ##[group]Run actions/cache@v4
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8341814Z with:
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8342135Z   path: /home/runner/work/_temp/sonar-scanner-cli-7.0.2.4839-Linux-X64
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8342545Z   key: sonar-scanner-cli-7.0.2.4839-Linux-X64
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8342867Z   enableCrossOsArchive: false
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8343280Z   fail-on-cache-miss: false
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8343776Z   lookup-only: false
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8343998Z   save-always: false
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8344206Z env:
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8346816Z   GITHUB_TOKEN: ***
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8347124Z   SONAR_TOKEN: ***
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8347362Z   SEGMENT_DOWNLOAD_TIMEOUT_MINS: 1
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.8347637Z ##[endgroup]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.9454014Z (node:2315) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:18.9454906Z (Use `node --trace-deprecation ...` to show where the warning was created)
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.0173609Z Cache hit for: sonar-scanner-cli-7.0.2.4839-Linux-X64
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.0273220Z (node:2315) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.4151315Z Received 51824002 of 51824002 (100.0%), 146.7 MBs/sec
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.4152220Z Cache Size: ~49 MB (51824002 B)
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.4182067Z [command]/usr/bin/tar -xf /home/runner/work/_temp/77c4d1f2-6a11-44c7-9d46-12892098342a/cache.tzst -P -C /home/runner/work/sast-thesis-testbed/sast-thesis-testbed --use-compress-program unzstd
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.6739515Z Cache restored successfully
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.6842295Z Cache restored from key: sonar-scanner-cli-7.0.2.4839-Linux-X64
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.6980679Z ##[end-action id=__SonarSource_sonarcloud-github-action.__SonarSource_sonarqube-scan-action.sonar-scanner-cli;outcome=success;conclusion=success;duration_ms=870]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.6988837Z ##[start-action display=Install Sonar Scanner CLI;id=__SonarSource_sonarcloud-github-action.__SonarSource_sonarqube-scan-action.__run_2]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7015438Z ##[end-action id=__SonarSource_sonarcloud-github-action.__SonarSource_sonarqube-scan-action.__run_2;outcome=skipped;conclusion=skipped;duration_ms=0]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7018203Z ##[start-action display=Add SonarScanner CLI to the PATH;id=__SonarSource_sonarcloud-github-action.__SonarSource_sonarqube-scan-action.__run_3]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7037088Z ##[group]Run echo "${RUNNER_TEMP}/sonar-scanner-cli-7.0.2.4839-Linux-X64/bin" >> $GITHUB_PATH
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7037739Z ^[[36;1mecho "${RUNNER_TEMP}/sonar-scanner-cli-7.0.2.4839-Linux-X64/bin" >> $GITHUB_PATH^[[0m
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7077760Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7078123Z env:
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7080912Z   GITHUB_TOKEN: ***
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7081227Z   SONAR_TOKEN: ***
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7081471Z ##[endgroup]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7155846Z ##[end-action id=__SonarSource_sonarcloud-github-action.__SonarSource_sonarqube-scan-action.__run_3;outcome=success;conclusion=success;duration_ms=13]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7159931Z ##[start-action display=Run SonarScanner;id=__SonarSource_sonarcloud-github-action.__SonarSource_sonarqube-scan-action.__run_4]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7176959Z ##[group]Run ${GITHUB_ACTION_PATH}/scripts/run-sonar-scanner-cli.sh 
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7177479Z ^[[36;1m${GITHUB_ACTION_PATH}/scripts/run-sonar-scanner-cli.sh ^[[0m
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7215562Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7215937Z env:
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7218513Z   GITHUB_TOKEN: ***
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7218920Z   SONAR_TOKEN: ***
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7219160Z   INPUT_PROJECTBASEDIR: 
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7219572Z   SONAR_SCANNER_JRE: /home/runner/work/_temp/sonar-scanner-cli-7.0.2.4839-Linux-X64/jre
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7220024Z ##[endgroup]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:19.7299969Z + sonar-scanner
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:20.0195267Z 16:23:20.016 INFO  Scanner configuration file: /home/runner/work/_temp/sonar-scanner-cli-7.0.2.4839-Linux-X64/conf/sonar-scanner.properties
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:20.0203152Z 16:23:20.019 INFO  Project root configuration file: /home/runner/work/sast-thesis-testbed/sast-thesis-testbed/sonar-project.properties
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:20.0359337Z 16:23:20.035 INFO  SonarScanner CLI 7.0.2.4839
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:20.0375462Z 16:23:20.037 INFO  Java 17.0.13 Eclipse Adoptium (64-bit)
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:20.0382331Z 16:23:20.038 INFO  Linux 6.17.0-1022-azure amd64
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:20.0685290Z 16:23:20.068 INFO  User cache: /home/runner/.sonar/cache
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:20.6993689Z 16:23:20.698 INFO  JRE provisioning: os[linux], arch[x86_64]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:23.5446255Z 16:23:23.544 INFO  Communicating with SonarQube Cloud
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:23.8303223Z 16:23:23.829 INFO  Starting SonarScanner Engine...
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:23.8306726Z 16:23:23.830 INFO  Java 21.0.11 Eclipse Adoptium (64-bit)
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:24.9567735Z 16:23:24.956 INFO  Load global settings
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:25.6691606Z 16:23:25.668 INFO  Load global settings (done) | time=706ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:25.7584610Z 16:23:25.757 INFO  Server id: 1BD809FA-AWHW8ct9-T_TB3XqouNu
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:25.9781752Z 16:23:25.976 INFO  Loading required plugins
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:25.9785288Z 16:23:25.977 INFO  Load plugins index
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:26.1064758Z 16:23:26.105 INFO  Load plugins index (done) | time=128ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:26.1074102Z 16:23:26.106 INFO  Load/download plugins
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:26.9141541Z 16:23:26.913 INFO  Load/download plugins (done) | time=806ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:27.1270012Z 16:23:27.126 INFO  Loaded core extensions: sca, architecture, a3s
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:27.3899071Z 16:23:27.389 INFO  Found an active CI vendor: 'Github Actions'
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:27.7553228Z 16:23:27.754 INFO  Process project properties
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:27.7793757Z 16:23:27.778 INFO  Project key: roberts911_sast-thesis-testbed
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:27.7794816Z 16:23:27.778 INFO  Base dir: /home/runner/work/sast-thesis-testbed/sast-thesis-testbed
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:27.7795734Z 16:23:27.779 INFO  Working dir: /home/runner/work/sast-thesis-testbed/sast-thesis-testbed/.scannerwork
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:27.7841783Z 16:23:27.783 INFO  Load project settings for component key: 'roberts911_sast-thesis-testbed'
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:28.0513226Z 16:23:28.050 INFO  Load project settings for component key: 'roberts911_sast-thesis-testbed' (done) | time=266ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:28.0739094Z 16:23:28.073 INFO  Check ALM binding of project 'roberts911_sast-thesis-testbed'
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:28.3095195Z 16:23:28.308 INFO  Detected project binding: BOUND
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:28.3111247Z 16:23:28.309 INFO  Check ALM binding of project 'roberts911_sast-thesis-testbed' (done) | time=235ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:28.3142598Z 16:23:28.314 INFO  Load branch configuration
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:28.3169410Z 16:23:28.314 INFO  Github event: pull_request
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:28.3374232Z 16:23:28.336 INFO  Auto-configuring pull request 13
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:29.1817761Z 16:23:29.181 INFO  Load branch configuration (done) | time=867ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:29.1857243Z 16:23:29.185 INFO  Create analysis
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:29.5039169Z 16:23:29.503 INFO  Pull request 13 for merge into main from pomiar-5
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:29.5040458Z 16:23:29.503 INFO  Create analysis (done) | time=318ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:29.8098945Z 16:23:29.808 INFO  Load quality profiles
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:30.2301211Z 16:23:30.229 INFO  Load quality profiles (done) | time=420ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:30.3703999Z 16:23:30.369 INFO  Load active rules
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:31.1097408Z 16:23:31.109 INFO  Load active rules (done) | time=740ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:31.3204469Z 16:23:31.319 INFO  Organization key: roberts911
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:31.3397870Z 16:23:31.339 INFO  Preprocessing files...
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:32.3380236Z 16:23:32.336 INFO  2 languages detected in 2585 preprocessed files (done) | time=997ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:32.3397743Z 16:23:32.337 INFO  317 files ignored because of inclusion/exclusion patterns
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:32.3399107Z 16:23:32.337 INFO  15 directories skipped because of exclusion patterns (content not counted)
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:32.3400389Z 16:23:32.337 INFO  0 files ignored because of scm ignore settings
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:32.3591875Z 16:23:32.358 INFO  Loading plugins for detected languages
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:32.3614965Z 16:23:32.360 INFO  Load/download plugins
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:33.4289943Z 16:23:33.428 INFO  Load/download plugins (done) | time=1069ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:33.6109549Z 16:23:33.610 INFO  Load project repositories
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:34.1650296Z 16:23:34.164 INFO  Load project repositories (done) | time=554ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:34.1679240Z 16:23:34.167 INFO  SCM collecting changed files in the branch
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:34.1918849Z 16:23:34.191 INFO  Merge base sha1: 303a698631aa61bd9b8f2e187319149666e87eba
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:34.3114696Z 16:23:34.310 INFO  SCM collecting changed files in the branch (done) | time=142ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:34.3394597Z 16:23:34.337 INFO  Indexing files...
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:34.3395950Z 16:23:34.338 INFO  Project configuration:
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:34.3424562Z 16:23:34.341 INFO    Included sources: **/*.js, **/*.jsx, **/*.ts, **/*.tsx, **/*.mjs, **/*.cjs, real/**/bin/*
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:34.3454970Z 16:23:34.341 INFO    Excluded sources: synthetic/ground_truth.csv, real/**/meta.json, real/**/test/**, real/**/tests/**, real/**/spec/**, real/**/__tests__/**, real/**/*.min.js, real/**/*.map, **/build-wrapper-dump.json
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:34.4514376Z 16:23:34.448 INFO  2579 files indexed (done) | time=113ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:34.4543948Z 16:23:34.452 INFO  Quality profile for js: Sonar way
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:34.4574010Z 16:23:34.452 INFO  Quality profile for ts: Sonar way
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:34.4604079Z 16:23:34.453 INFO  ------------- Run sensors on module roberts911_sast-thesis-testbed
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:34.4984556Z 16:23:34.497 INFO  Load metrics repository
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:34.6186723Z 16:23:34.617 INFO  Load metrics repository (done) | time=120ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:34.6273742Z 16:23:34.627 INFO  Sensor cache enabled
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:34.6316984Z 16:23:34.631 INFO  Load sensor cache
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:36.9223653Z 16:23:36.921 INFO  Load sensor cache (5 MB) | time=2289ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:37.3235482Z 16:23:37.320 INFO  Reflections took 67 ms to scan 1 urls, producing 30 keys and 295 values
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:37.9332539Z 16:23:37.932 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:37.9746524Z 16:23:37.974 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=39ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:37.9748241Z 16:23:37.974 INFO  Sensor Scan Manifest Module Properties Collector [commona3scontextcollector]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.5069271Z 16:23:38.506 INFO  Sensor Scan Manifest Module Properties Collector [commona3scontextcollector] (done) | time=533ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.5070873Z 16:23:38.506 INFO  Sensor HTML [web]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.5072072Z 16:23:38.506 INFO  Sensor HTML is restricted to changed files only
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9391809Z 16:23:38.938 INFO  Sensor HTML [web] (done) | time=431ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9393374Z 16:23:38.938 INFO  Sensor JasminFileCollectorSensor [jasmin]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9429698Z 16:23:38.942 INFO  Sensor JasminFileCollectorSensor [jasmin] (done) | time=3ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9440731Z 16:23:38.943 INFO  Sensor IaC hadolint report Sensor [iac]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9466187Z 16:23:38.944 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=0ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9467317Z 16:23:38.944 INFO  Sensor Java Config Sensor [iac]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9468412Z 16:23:38.944 INFO  There are no files to be analyzed for the Java language
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9469460Z 16:23:38.944 INFO  Sensor Java Config Sensor [iac] (done) | time=0ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9470409Z 16:23:38.945 INFO  Sensor IaC Docker Sensor [iac]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9471463Z 16:23:38.945 INFO  Sensor IaC Docker Sensor is restricted to changed files only
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9505425Z 16:23:38.950 INFO  There are no files to be analyzed for the Docker language
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9528463Z 16:23:38.950 INFO  Sensor IaC Docker Sensor [iac] (done) | time=5ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9546908Z 16:23:38.950 INFO  Sensor IaC GitHub Actions Sensor [iac]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9548203Z 16:23:38.951 INFO  There are no files to be analyzed for the GitHub Actions language
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9549730Z 16:23:38.951 INFO  Sensor IaC GitHub Actions Sensor [iac] (done) | time=0ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9550998Z 16:23:38.951 INFO  Sensor IaC actionlint report Sensor [iac]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9552894Z 16:23:38.951 INFO  Sensor IaC actionlint report Sensor [iac] (done) | time=0ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9554296Z 16:23:38.951 INFO  Sensor IaC Shell Sensor [iac]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9555606Z 16:23:38.952 INFO  There are no files to be analyzed for the Shell language
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9556753Z 16:23:38.953 INFO  Sensor IaC Shell Sensor [iac] (done) | time=1ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9557987Z 16:23:38.953 INFO  Sensor EnterpriseTextAndSecretsSensor [textenterprise]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9559452Z 16:23:38.954 INFO  Sensor EnterpriseTextAndSecretsSensor is restricted to changed files only
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9739475Z 16:23:38.973 INFO  Available processors: 4
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:38.9747837Z 16:23:38.974 INFO  Using 4 threads for analysis.
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.3437271Z 16:23:39.340 INFO  The following rules are activated in the quality profile but will not raise any issue, because they are being rolled out progressively: secrets:S8135, secrets:S8136. You can enable it by setting: sonar.featureflag.cloud-security-enable-secrets-S8135, sonar.featureflag.cloud-security-enable-secrets-S8136 to true.
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.3469325Z 16:23:39.341 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.3470765Z   * The filename starts with "test"
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.3471495Z   * The filename contains "test." or "tests."
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.3472506Z   * Any directory in the file path is named: "doc", "docs", "test", "tests", "mock" or "mocks"
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.3474013Z   * Any directory in the file path has a name ending in "test" or "tests"
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.3474688Z 
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.4249718Z 16:23:39.424 INFO  Start fetching files for the text and secrets analysis
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.4298498Z 16:23:39.429 INFO  Using Git CLI to retrieve dirty files
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.5580989Z 16:23:39.557 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.5586543Z 16:23:39.558 INFO  There are no files to be analyzed for the text and secrets analysis
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.5605659Z 16:23:39.559 INFO  Start fetching files for the binary file analysis
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.5606959Z 16:23:39.560 INFO  There are no files to be analyzed for the binary file analysis
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.5658711Z 16:23:39.565 INFO  Sensor EnterpriseTextAndSecretsSensor [textenterprise] (done) | time=612ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.5768777Z 16:23:39.576 INFO  ------------- Run sensors on project
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.9354720Z 16:23:39.934 INFO  Sensor Scan Manifest A3S Context Collector [commona3scontextcollector]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.9356128Z 16:23:39.934 INFO  Sensor Scan Manifest A3S Context Collector [commona3scontextcollector] (done) | time=0ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.9357385Z 16:23:39.935 INFO  Sensor Architecture JS/TS UDG cache [architecturejavascriptfrontend]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.9414784Z 16:23:39.937 INFO  Found 0 potential Udg file location(s) for "js" in "/home/runner/work/sast-thesis-testbed/sast-thesis-testbed/.scannerwork"
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.9502366Z 16:23:39.948 INFO  Found 0 potential Udg file location(s) for "ts" in "/home/runner/work/sast-thesis-testbed/sast-thesis-testbed/.scannerwork"
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.9515119Z 16:23:39.950 INFO  Architecture JS/TS UDG cache: 0 UDG(s) cached, 0 restored from the cache, 2554 source file(s) without a UDG, 0 UDG(s) not attributable to a source file, 0 UDG(s) that could not be cached
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.9517520Z 16:23:39.950 INFO  Sensor Architecture JS/TS UDG cache [architecturejavascriptfrontend] (done) | time=14ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:39.9518887Z 16:23:39.950 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:40.2414961Z 16:23:40.240 INFO  Detected os: Linux arch: amd64 alpine: false. Platform: LINUX_X64
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:40.2424862Z 16:23:40.241 INFO  Deploy location /home/runner/.sonar/js/node-runtime, tagetRuntime: /home/runner/.sonar/js/node-runtime/node,  version: /home/runner/.sonar/js/node-runtime/version.txt
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:43.0825744Z 16:23:43.082 INFO  Using embedded Node.js runtime.
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:43.0826965Z 16:23:43.082 INFO  Using Node.js executable: '/home/runner/.sonar/js/node-runtime/node'.
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:45.0011645Z 16:23:45.000 INFO  Memory configuration: OS (15989 MB), Node.js (4288 MB).
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:45.0114645Z 16:23:45.010 INFO  gRPC analyze-project server listening on 127.0.0.1:33275
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:45.1835948Z 16:23:45.182 INFO  Plugin version: [13.8.0.44569]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:48.3860807Z 16:23:48.385 INFO  Some of the project files were automatically excluded because they looked like generated code. Enable debug logging to see which files were excluded. You can disable bundle detection by setting sonar.javascript.detectBundles=false
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.0285379Z 16:23:49.026 INFO  Found 1 tsconfig.json file(s): [/home/runner/work/sast-thesis-testbed/sast-thesis-testbed/tsconfig.json]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.0286992Z 16:23:49.027 INFO  0 source files to be analyzed
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.0287919Z 16:23:49.027 INFO  0/0 source files have been analyzed
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.0457052Z 16:23:49.043 INFO  JasminAstConsumer done
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.0491822Z 16:23:49.046 INFO  Hit the cache for 2482 out of 2554
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.0493477Z 16:23:49.046 INFO  Miss the cache for 72 out of 2554: FILE_CHANGED [72/2554]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.0494910Z 16:23:49.046 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript] (done) | time=9094ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.0496037Z 16:23:49.046 INFO  Sensor IaC Project Sensor [iac]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.0497018Z 16:23:49.046 INFO  Sensor IaC Project Sensor [iac] (done) | time=1ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.0498310Z 16:23:49.047 INFO  Sensor JsSecuritySensorV2 [jasmin]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.1435141Z 16:23:49.143 INFO  Unchanged files can be skipped in the current context and all relevant files are unchanged. Skipping taint analysis.
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.1464101Z 16:23:49.144 INFO  Sensor JsSecuritySensorV2 [jasmin] (done) | time=95ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.1494059Z 16:23:49.144 INFO  Sensor JsArchitectureSensor [architecture]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.1615024Z 16:23:49.159 INFO  Found 0 potential Udg file location(s) for "js" in "/home/runner/work/sast-thesis-testbed/sast-thesis-testbed/.scannerwork"
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.1747191Z 16:23:49.174 INFO  Architecture analysis is enabled.
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.1834387Z 16:23:49.180 INFO  * Protobuf reading starting | memory total=290 | free=126 | used=163 (MB)
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.1864571Z 16:23:49.184 INFO  * Protobuf reading complete | memory total=290 | free=126 | used=163 (MB)
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.2035128Z 16:23:49.200 INFO  * Build architecture.graph.js.file_graph.default_perspective hierarchy graph complete (filtered=false) | memory total=290 | free=125 | used=164 (MB)
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.2771778Z 16:23:49.276 INFO  No directives configured
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.2951185Z 16:23:49.294 INFO  * No intended architecture defined or detected, using an empty model
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.4234608Z 16:23:49.422 INFO  Loaded 184 built-in boundary descriptor(s)
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.4337956Z 16:23:49.432 INFO  Sensor JsArchitectureSensor [architecture] (done) | time=290ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.4374172Z 16:23:49.433 INFO  Sensor TsArchitectureSensor [architecture]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.4455048Z 16:23:49.445 INFO  Found 0 potential Udg file location(s) for "ts" in "/home/runner/work/sast-thesis-testbed/sast-thesis-testbed/.scannerwork"
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.4502136Z 16:23:49.448 INFO  Architecture analysis is enabled.
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.4544279Z 16:23:49.448 INFO  * Protobuf reading starting | memory total=290 | free=103 | used=186 (MB)
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.4549133Z 16:23:49.448 INFO  * Protobuf reading complete | memory total=290 | free=103 | used=186 (MB)
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.4584673Z 16:23:49.449 INFO  * Build architecture.graph.ts.file_graph.default_perspective hierarchy graph complete (filtered=false) | memory total=290 | free=103 | used=186 (MB)
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.4643915Z 16:23:49.449 INFO  No directives configured
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.4673960Z 16:23:49.449 INFO  * No intended architecture defined or detected, using an empty model
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.4676207Z 16:23:49.453 INFO  Sensor TsArchitectureSensor [architecture] (done) | time=19ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.4703897Z 16:23:49.454 INFO  Sensor Zero Coverage Sensor
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.4794293Z 16:23:49.476 INFO  Sensor Zero Coverage Sensor (done) | time=21ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.4803810Z 16:23:49.477 INFO  Sensor Architecture Telemetry [architecture]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.4854390Z 16:23:49.477 INFO  Sensor Architecture Telemetry [architecture] (done) | time=0ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.4974238Z 16:23:49.494 INFO  ------------- Gather SCA dependencies on project
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.7683813Z 16:23:49.767 INFO  Dependency analysis skipped
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.8744513Z 16:23:49.872 INFO  CPD Executor 1632 files had no CPD blocks
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:49.8754082Z 16:23:49.872 INFO  CPD Executor Calculating CPD for 850 files
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:50.3534398Z 16:23:50.350 INFO  CPD Executor CPD calculation finished (done) | time=477ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:50.3764457Z 16:23:50.375 INFO  SCM revision ID 'e329e9c806c78b709a82f5980e274b0bef5f5700'
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:50.6469665Z 16:23:50.646 INFO  SCM writing changed lines
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:50.6624709Z 16:23:50.660 INFO  Merge base sha1: 303a698631aa61bd9b8f2e187319149666e87eba
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:50.6640647Z 16:23:50.660 INFO  SCM writing changed lines (done) | time=10ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:55.9983267Z 16:23:55.997 INFO  Analysis report generated in 5603ms, dir size=578 KB
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:56.5737380Z 16:23:56.573 INFO  Analysis report compressed in 574ms, zip size=685 KB
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:57.8427479Z 16:23:57.842 INFO  Analysis report uploaded in 1268ms
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:57.8446820Z 16:23:57.843 INFO  ANALYSIS SUCCESSFUL, you can find the results at: https://sonarcloud.io/dashboard?id=roberts911_sast-thesis-testbed&pullRequest=13
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:57.8449122Z 16:23:57.844 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:57.8450983Z 16:23:57.844 INFO  More about the report processing at https://sonarcloud.io/api/ce/task?id=AaBtO-g4g6Fhx6Sn1TQc
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:57.8452254Z 16:23:57.844 INFO  ------------- Upload SCA dependency files
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:59.4530029Z 16:23:59.452 INFO  Successfully sent architecture data
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:59.8722834Z 16:23:59.871 INFO  Analysis total time: 32.745 s
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:23:59.9004433Z 16:23:59.899 INFO  SonarScanner Engine completed successfully
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:24:00.2404456Z 16:24:00.240 INFO  EXECUTION SUCCESS
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:24:00.2415038Z 16:24:00.241 INFO  Total time: 40.228s
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:24:00.5675859Z ##[end-action id=__SonarSource_sonarcloud-github-action.__SonarSource_sonarqube-scan-action.__run_4;outcome=success;conclusion=success;duration_ms=40851]
+SonarCloud Scan	SonarCloud Scan	2026-09-04T16:24:00.5689831Z ##[end-action id=__SonarSource_sonarcloud-github-action.__SonarSource_sonarqube-scan-action;outcome=success;conclusion=success;duration_ms=41764]
+SonarCloud Scan	Post SonarCloud Scan	﻿2026-09-04T16:24:00.5790197Z Post job cleanup.
+SonarCloud Scan	Post SonarCloud Scan	2026-09-04T16:24:00.5794116Z ##[start-action display=SonarQube Cloud Scan;id=__80e872c7-5cb0-4a1c-b0c8-1dce5e972c8a.__SonarSource_sonarqube-scan-action]
+SonarCloud Scan	Post SonarCloud Scan	2026-09-04T16:24:00.5855635Z Post job cleanup.
+SonarCloud Scan	Post SonarCloud Scan	2026-09-04T16:24:00.5859107Z ##[start-action display=Load Sonar Scanner CLI from cache;id=__80e872c7-5cb0-4a1c-b0c8-1dce5e972c8a.__SonarSource_sonarqube-scan-action.sonar-scanner-cli]
+SonarCloud Scan	Post SonarCloud Scan	2026-09-04T16:24:00.5894649Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+SonarCloud Scan	Post SonarCloud Scan	2026-09-04T16:24:00.5895860Z Post job cleanup.
+SonarCloud Scan	Post SonarCloud Scan	2026-09-04T16:24:00.7066270Z Cache hit occurred on the primary key sonar-scanner-cli-7.0.2.4839-Linux-X64, not saving cache.
+SonarCloud Scan	Post SonarCloud Scan	2026-09-04T16:24:00.7068187Z (node:2530) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+SonarCloud Scan	Post SonarCloud Scan	2026-09-04T16:24:00.7069053Z (Use `node --trace-deprecation ...` to show where the warning was created)
+SonarCloud Scan	Post SonarCloud Scan	2026-09-04T16:24:00.7137300Z ##[end-action id=__80e872c7-5cb0-4a1c-b0c8-1dce5e972c8a.__SonarSource_sonarqube-scan-action.sonar-scanner-cli;outcome=success;conclusion=success;duration_ms=127]
+SonarCloud Scan	Post SonarCloud Scan	2026-09-04T16:24:00.7141602Z ##[end-action id=__80e872c7-5cb0-4a1c-b0c8-1dce5e972c8a.__SonarSource_sonarqube-scan-action;outcome=success;conclusion=success;duration_ms=134]
+SonarCloud Scan	Post Setup Node.js	﻿2026-09-04T16:24:00.7194651Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+SonarCloud Scan	Post Setup Node.js	2026-09-04T16:24:00.7196050Z Post job cleanup.
+SonarCloud Scan	Post Setup Node.js	2026-09-04T16:24:00.8552020Z (node:2538) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+SonarCloud Scan	Post Setup Node.js	2026-09-04T16:24:00.8553660Z (Use `node --trace-deprecation ...` to show where the warning was created)
+SonarCloud Scan	Post Run actions/checkout@v4	﻿2026-09-04T16:24:00.8742683Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+SonarCloud Scan	Post Run actions/checkout@v4	2026-09-04T16:24:00.8744071Z Post job cleanup.
+SonarCloud Scan	Post Run actions/checkout@v4	2026-09-04T16:24:00.9724682Z [command]/usr/bin/git version
+SonarCloud Scan	Post Run actions/checkout@v4	2026-09-04T16:24:00.9770097Z git version 2.55.0
+SonarCloud Scan	Post Run actions/checkout@v4	2026-09-04T16:24:00.9811588Z Temporarily overriding HOME='/home/runner/work/_temp/2ee7f0fc-ed0a-44cc-9671-d55ae33f73fa' before making global git config changes
+SonarCloud Scan	Post Run actions/checkout@v4	2026-09-04T16:24:00.9813347Z Adding repository directory to the temporary git global config as a safe directory
+SonarCloud Scan	Post Run actions/checkout@v4	2026-09-04T16:24:00.9816659Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/sast-thesis-testbed/sast-thesis-testbed
+SonarCloud Scan	Post Run actions/checkout@v4	2026-09-04T16:24:00.9863396Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+SonarCloud Scan	Post Run actions/checkout@v4	2026-09-04T16:24:00.9908914Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+SonarCloud Scan	Post Run actions/checkout@v4	2026-09-04T16:24:01.0181267Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+SonarCloud Scan	Post Run actions/checkout@v4	2026-09-04T16:24:01.0209977Z http.https://github.com/.extraheader
+SonarCloud Scan	Post Run actions/checkout@v4	2026-09-04T16:24:01.0222732Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+SonarCloud Scan	Post Run actions/checkout@v4	2026-09-04T16:24:01.0261606Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+SonarCloud Scan	Post Run actions/checkout@v4	2026-09-04T16:24:01.0561438Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+SonarCloud Scan	Post Run actions/checkout@v4	2026-09-04T16:24:01.0606855Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+SonarCloud Scan	Complete job	﻿2026-09-04T16:24:01.1035746Z Cleaning up orphan processes
+SonarCloud Scan	Complete job	2026-09-04T16:24:01.1359299Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/cache@v4, actions/checkout@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
